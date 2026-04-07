@@ -6,8 +6,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 A personal ROM hack built on `pokeemerald-expansion` (pinned to **1.15.1**), themed around a Pokémon Ranger recruit. Approach is a narrative reskin of mainline Pokémon mechanics — see `ranger-docs/` for the full design.
 
-- `master` — vanilla `pokeemerald-expansion` 1.15.1 baseline. Do **not** commit hack work here.
-- `hack/ranger-main` — working branch for all hack development.
+- `main` — default branch; all hack development happens here.
+- `vanilla-1.15.1` — pristine `pokeemerald-expansion` 1.15.1 baseline, kept as a reference anchor for diffing and cherry-picks. Do **not** commit hack work here.
 - `origin` — personal fork (`chris-wilson-1/pokemon-ranger`).
 - `upstream` — `rh-hideout/pokeemerald-expansion`. Cherry-pick fixes individually; never merge wholesale.
 
@@ -46,6 +46,16 @@ Single-test runs and filtering: see `test/` and upstream docs in `docs/` (mdbook
 | Build tools | `tools/` |
 | Upstream docs (mdbook) | `docs/` — **do not edit for hack changes** |
 | **Hack design docs** | `ranger-docs/` — mkdocs-material site, **edit aggressively** |
+
+## `/feature` skill overrides
+
+The `feature` skill is written for a TypeScript/bun project. In this repo, substitute as follows:
+
+- **Setup step:** skip `doppler setup` and `bun install` entirely. There is no dependency install — `make` builds tools on demand on the first build.
+- **Pre-PR verification:** run `make -j$(nproc)` and confirm the ROM builds cleanly. Do **not** run `make check` automatically — the test ROM build is slow. Only run it if the user asks.
+- **PR target branch:** `main`.
+- **Branch prefixes:** `feat/` for features, `fix/` for bug fixes (unchanged).
+- **Worktree path:** `.worktrees/<slug>` (unchanged).
 
 ## Conventions specific to this hack
 
