@@ -1,0 +1,8 @@
+mapscripts LittlerootTown_RangerBaseTrainingHall_MapScripts {}
+
+script LittlerootTown_RangerBaseTrainingHall_EventScript_Greeter {
+    lock
+    faceplayer
+    msgbox(format("Welcome to the Ranger Base Training Hall, recruit!"), MSGBOX_NPC)
+    release
+}
