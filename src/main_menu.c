@@ -191,6 +191,7 @@ static void Task_HandleMainMenuInput(u8);
 static void Task_HandleMainMenuAPressed(u8);
 static void Task_HandleMainMenuBPressed(u8);
 static void Task_NewGameBirchSpeech_Init(u8);
+static void CB2_NewGameRangerSkipIntro(void);
 static void Task_DisplayMainMenuInvalidActionError(u8);
 static void AddBirchSpeechObjects(u8);
 static void Task_NewGameBirchSpeech_WaitToShowBirch(u8);
@@ -1088,10 +1089,15 @@ static void Task_HandleMainMenuAPressed(u8 taskId)
                 return;
             }
 
+            // Ranger hack: skip the Birch speech and naming screen entirely.
+            // Drops the player straight into the truck intro with a fixed
+            // identity. See ranger-docs/docs/dev/tech-demo.md step 1.
+            DestroyTask(taskId);
+            FreeAllWindowBuffers();
             gPlttBufferUnfaded[0] = RGB_BLACK;
             gPlttBufferFaded[0] = RGB_BLACK;
-            gTasks[taskId].func = Task_NewGameBirchSpeech_Init;
-            break;
+            SetMainCallback2(CB2_NewGameRangerSkipIntro);
+            return;
         case ACTION_CONTINUE:
             gPlttBufferUnfaded[0] = RGB_BLACK;
             gPlttBufferFaded[0] = RGB_BLACK;
@@ -1292,6 +1298,21 @@ static void HighlightSelectedMainMenuItem(u8 menuType, u8 selectedMenuItem, s16 
 #define tLotadSpriteId data[9]
 #define tBrendanSpriteId data[10]
 #define tMaySpriteId data[11]
+
+// Ranger hack: default identity used when the Birch intro is skipped.
+static const u8 sRangerDefaultPlayerName[] = _("RANGER");
+
+static void CB2_NewGameRangerSkipIntro(void)
+{
+    // CB2_NewGame runs NewGameInitData (which calls ClearSav2), sets up the
+    // field callback chain (ExecuteTruckSequence), and switches the main
+    // callback to CB2_Overworld. After it returns, gSaveBlock2Ptr is fully
+    // initialized, so it's safe to patch the player identity in place — the
+    // truck/Mom scripts won't read playerName until much later.
+    CB2_NewGame();
+    gSaveBlock2Ptr->playerGender = MALE;
+    StringCopy(gSaveBlock2Ptr->playerName, sRangerDefaultPlayerName);
+}
 
 static void Task_NewGameBirchSpeech_Init(u8 taskId)
 {
