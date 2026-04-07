@@ -1,8 +1,8 @@
 # Story
 
-The main plot spine for the hack. Drafted 2026-04-07. Setting (region, geography, names) is still deferred — this doc captures the *shape* of the story, not its proper nouns.
+The main plot spine for the hack. Drafted 2026-04-07. Region-level setting is captured separately in [setting.md](setting.md) (region: **Ardenna**; the wound: **Xerneas dormancy**). Many proper nouns (Company name, CEO, mentor, station names) are still open.
 
-> See also: [Tone & Story Arc](../vision/tone-and-arc.md), [Pillars](../vision/pillars.md).
+> See also: [Setting (Ardenna)](setting.md), [Tone & Story Arc](../vision/tone-and-arc.md), [Pillars](../vision/pillars.md).
 
 ## One-line pitch
 

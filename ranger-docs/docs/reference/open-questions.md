@@ -4,19 +4,23 @@ Things explicitly undecided. Each should resolve into a [Decisions Log](decision
 
 ## Story
 
-- **What is "the turn"?** What single event flips the tone from wholesome to dark?
-- **When does the turn happen?** Late Act 1, early Act 2, or further in?
-- **Who is the villain?** No faction chosen. Earlier brainstorm options: Reclamation, Vantage Corp, Hollow Order, Splinter Rangers — none committed to.
-- **Is there a legendary at the centre?** If so, which one and what role does it play?
+- **The unflinching scene** — what *specifically* is Beat 3 of the staggered reveal?
+- **The act-1 tutorial mission that becomes the act-3 "you did this" moment** — what specifically does the player do, and where?
+- **Mentor figure** — who, what's their arc, what's their compartmentalisation, do they survive? (Probably wants its own brainstorming session.)
+- **The Company's name and visual identity** (logo, colour, typography — must read as NGO, not corporate)
+- **The CEO** — name, appearance, voice
+- **The 2–3 ex-ranger cell members** — names, prior roles, current state, who breaks and who hardens
 - **Does the player character have a defined backstory or are they a blank slate?**
-- **Mentor figure** — who, what's their arc, do they survive?
 
-## Setting
+## Setting (Ardenna)
 
-- Hoenn-reskin or custom region?
-- Climate/biome mix?
-- Recent historical wound (post-war, post-disaster) or peaceful surface?
-- How many Ranger Bases / rank-up sites?
+- **Exact station count** — 7 vs 8 — and the identity of each station
+- **Biome layout** along the spine
+- **The Eternal Tree's exact location** — tail terminus, hidden, or in plain sight?
+- **Where the finale is staged** — terminus, or pulled back to the tail?
+- **Which Pokémon species are the visible victims** at extraction sites (Machoke, Wailmer, Graveler are placeholders)
+- **Which species "left during the Withdrawal"** and are absent from the regional dex
+- **Tile/encounter art direction for the river degradation** — colour shift, foam, sparseness, what reads from the train
 
 ## Mechanics
 
@@ -27,7 +31,7 @@ Things explicitly undecided. Each should resolve into a [Decisions Log](decision
 ## Production
 
 - Custom rank-up animation — how custom? Reuse evolution animation chassis or build new?
-- Tilesets — vanilla Hoenn, remixed, or custom from day one?
+- Tilesets — building from scratch given the custom region commitment, but what *style*?
 - Music — vanilla, community remixes, or original?
 
 ## Process
