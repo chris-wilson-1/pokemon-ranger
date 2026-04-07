@@ -1,0 +1,55 @@
+site_name: Pokémon Ranger Hack
+site_description: Design and development documentation for the Ranger ROM hack
+docs_dir: docs
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: green
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: green
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.details
+  - tables
+nav:
+  - Home: index.md
+  - Vision:
+      - Pillars: vision/pillars.md
+      - Inspirations: vision/inspirations.md
+      - Tone & Story Arc: vision/tone-and-arc.md
+  - Design:
+      - Setting: design/setting.md
+      - Rank System: design/rank-system.md
+      - Ranger Gear: design/ranger-gear.md
+      - Mission Structure: design/mission-structure.md
+      - Partner NPCs: design/partner-npcs.md
+      - Pokédex Curation: design/pokedex.md
+      - Difficulty & QoL: design/difficulty-and-qol.md
+  - Development:
+      - Environment Setup: dev/environment.md
+      - Build & Test Loop: dev/build-and-test.md
+      - Git Workflow: dev/git-workflow.md
+      - Conventions: dev/conventions.md
+      - Tech Demo Plan: dev/tech-demo.md
+  - Reference:
+      - Decisions Log: reference/decisions.md
+      - Open Questions: reference/open-questions.md
+      - Glossary: reference/glossary.md
