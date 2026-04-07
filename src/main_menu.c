@@ -1304,11 +1304,10 @@ static const u8 sRangerDefaultPlayerName[] = _("RANGER");
 
 static void CB2_NewGameRangerSkipIntro(void)
 {
-    // CB2_NewGame runs NewGameInitData (which calls ClearSav2), sets up the
-    // field callback chain (ExecuteTruckSequence), and switches the main
-    // callback to CB2_Overworld. After it returns, gSaveBlock2Ptr is fully
-    // initialized, so it's safe to patch the player identity in place — the
-    // truck/Mom scripts won't read playerName until much later.
+    // CB2_NewGame handles the heavy lifting: ClearSav2, warp to the Training
+    // Hall (via our patched WarpToTruck), map load, callback wiring. The
+    // truck wake-up cutscene is also bypassed there. We just patch the
+    // player identity afterwards, since we skipped the naming screen.
     CB2_NewGame();
     gSaveBlock2Ptr->playerGender = MALE;
     StringCopy(gSaveBlock2Ptr->playerName, sRangerDefaultPlayerName);

@@ -13,19 +13,18 @@ The goal of the tech demo is to **prove the full pipeline end-to-end** before co
 - ✅ First text-only edit confirmed: `TEXT_SPEED_FAST` set to `0` in `include/config/text.h`
 - ✅ Birch intro skipped — `CB2_NewGameRangerSkipIntro` wrapper in `src/main_menu.c` drops the player straight into the truck with a fixed identity (`RANGER`, male). Naming screen and Birch monologue gone.
 - ✅ Porymap installed (`C:\Users\Chris\Tools\Porymap\porymap.exe`), opens the repo via `\\wsl.localhost\...` and loads Hoenn maps cleanly.
+- ✅ First custom map: `LittlerootTown_RangerBaseTrainingHall` (created in Porymap, registered in `layouts.json` + `map_groups.json`). New game spawns directly into it via patched `WarpToTruck` in `src/new_game.c`. Truck wake-up cutscene removed from `CB2_NewGame`.
+- ✅ Poryscript installed (`tools/poryscript/poryscript`, built from source via `apt install golang-go`). Build auto-compiles `*.pory` → `*.inc`.
 
 ## Next
 
-### 1. First custom map
-Duplicate a small interior (e.g. a Pokémon Centre), rename to `MAP_RANGER_BASE_TRAINING_HALL`, add one custom NPC event with placeholder dialogue. This teaches the map/warp/event system end to end.
+### 1. First NPC + dialogue
+Add an NPC object event to the Training Hall in Porymap, point it at a script, and write a one-line greeting in `scripts.pory`. Proves the event → poryscript → in-game text path.
 
-### 2. Install Poryscript
-Drop binary in PATH. Write the NPC's dialogue as a `.pory` file and confirm it compiles via `make`.
-
-### 3. First flag-checked interaction
+### 2. First flag-checked interaction
 NPC says one thing before "completing a mission" and another after. Wire up via a placeholder flag. This proves the scripting → state → branching loop.
 
-### 4. First var increment
+### 3. First var increment
 Define `VAR_PLAYER_RANK` and one rank constant. NPC interaction increments it. Inspect the change in mGBA's memory viewer.
 
 ## Tech demo done when
