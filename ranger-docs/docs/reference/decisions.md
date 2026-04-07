@@ -30,3 +30,6 @@ A short record of choices made and *why*. Append-only — when a decision is ove
 
 ### 2026-04-07 — Setting deferred
 **Why:** Setting decisions are downstream of tech-demo confidence and the story turn being defined. Don't lock in a region we'll regret.
+
+### 2026-04-07 — Main plot spine: corporate welfare-washing conspiracy + eco-terrorist ex-rangers
+**Why:** Gives the wholesome→dark turn a concrete villain whose ideology is the central thesis of Pokémon canon (the human–Pokémon bond is sacred) industrialised — meaning the Company cannot be out-argued and the player cannot disagree without disagreeing with the franchise. Eco-terrorist cell provides an act-1 misdirect (the player hunts them for the Company) and an act-3 morally uncomfortable ally (correct *and* broken), avoiding any clean faction in act 3. Full design in [story.md](../design/story.md).

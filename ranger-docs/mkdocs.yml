@@ -36,6 +36,7 @@ nav:
       - Inspirations: vision/inspirations.md
       - Tone & Story Arc: vision/tone-and-arc.md
   - Design:
+      - Story: design/story.md
       - Setting: design/setting.md
       - Rank System: design/rank-system.md
       - Ranger Gear: design/ranger-gear.md
