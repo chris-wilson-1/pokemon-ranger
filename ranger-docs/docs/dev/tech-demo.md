@@ -12,22 +12,20 @@ The goal of the tech demo is to **prove the full pipeline end-to-end** before co
 - ✅ First successful build → `pokeemerald.gba` runs in mGBA
 - ✅ First text-only edit confirmed: `TEXT_SPEED_FAST` set to `0` in `include/config/text.h`
 - ✅ Birch intro skipped — `CB2_NewGameRangerSkipIntro` wrapper in `src/main_menu.c` drops the player straight into the truck with a fixed identity (`RANGER`, male). Naming screen and Birch monologue gone.
+- ✅ Porymap installed (`C:\Users\Chris\Tools\Porymap\porymap.exe`), opens the repo via `\\wsl.localhost\...` and loads Hoenn maps cleanly.
 
 ## Next
 
-### 1. Install Porymap
-Native Windows build from the Porymap releases page. Point at the repo root. Confirm it loads the Hoenn map.
-
-### 2. First custom map
+### 1. First custom map
 Duplicate a small interior (e.g. a Pokémon Centre), rename to `MAP_RANGER_BASE_TRAINING_HALL`, add one custom NPC event with placeholder dialogue. This teaches the map/warp/event system end to end.
 
-### 3. Install Poryscript
+### 2. Install Poryscript
 Drop binary in PATH. Write the NPC's dialogue as a `.pory` file and confirm it compiles via `make`.
 
-### 4. First flag-checked interaction
+### 3. First flag-checked interaction
 NPC says one thing before "completing a mission" and another after. Wire up via a placeholder flag. This proves the scripting → state → branching loop.
 
-### 5. First var increment
+### 4. First var increment
 Define `VAR_PLAYER_RANK` and one rank constant. NPC interaction increments it. Inspect the change in mGBA's memory viewer.
 
 ## Tech demo done when
