@@ -640,6 +640,17 @@
       "layout_version": "emerald"
     },
     {
+      "id": "LAYOUT_LITTLEROOT_TOWN_RANGER_BASE_TRAINING_HALL",
+      "name": "LittlerootTown_RangerBaseTrainingHall_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_BattleFrontier",
+      "border_filepath": "data/layouts/LittlerootTown_RangerBaseTrainingHall/border.bin",
+      "blockdata_filepath": "data/layouts/LittlerootTown_RangerBaseTrainingHall/map.bin",
+      "layout_version": "emerald"
+    },
+    {
       "id": "LAYOUT_HOUSE1",
       "name": "House1_Layout",
       "width": 10,
