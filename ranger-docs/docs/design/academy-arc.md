@@ -12,14 +12,14 @@ Every craft commitment in [story.md](story.md#craft-commitments) that can land h
 
 ## Geography
 
-### The town (academy station's settlement)
+### Linden — the academy station's settlement
 
-Small, cozy, Littleroot-shaped. The player's home. 4 buildings on a single outdoor map with a central pond.
+**Station 3's town is named Linden.** Small, cozy, Littleroot-shaped. The player's home. 4 buildings on a single outdoor map with a central pond. The name pulls on linden trees — temperate, European, literary, old-growth coded.
 
-- **Player's house** — mum lives here, heals the team (no Pokémon Center; mum is the healing point). Player's bedroom upstairs. Standard Pokémon-home shape.
+- **Player's house** — **Mum** lives here, heals the team (no Pokémon Center; Mum is the healing point). Player's bedroom upstairs. Standard Pokémon-home shape. Mum is never given a first name — she is always and only "Mum" to the player and the script.
 - **Academy** — two floors. See interior below.
-- **Friend's house** — friend and **little sister** live here. The sister is introduced in Beat 2 and is the emotional stake of Beat 6.
-- **Rival's house** — the Gary-coded rival lives here with a parent who works for the Company and is openly proud of it. The rival brags about the parent the way Gary brags about anything — warm Pokémon-rival furniture that also delivers Company legitimacy saturation through gameplay.
+- **Pip's house** — **Pip** (the friend) and **Poppy** (little sister) live here. Poppy is introduced in Beat 2 and is the emotional stake of Beat 6.
+- **Bran's house** — **Bran** (the Gary-coded rival) lives here with **Meren** (his parent), who works for the Company as the academy's Partner Program liaison. Bran is openly proud of Meren the way Gary is openly proud of anything — and the Company-pride reads as normal rival trash talk to the player.
 
 **Outdoor features:**
 
@@ -50,16 +50,16 @@ Two floors. Significant building, as befits a Ranger Corps institution.
 
 ## Cast
 
-Locked for act 1. All of these exist from the first screen the player walks the town.
+Locked for act 1 (names locked 2026-04-08). All of these exist from the first screen the player walks the town.
 
-- **Mum** — player house. Heals the team throughout act 1. Classic Pokémon mum energy. No secrets. Never finds out.
-- **Mentor** — academy ground floor. Earnest, heartfelt, genuinely loves rangering. Gives the graduation speech in Beat 3. Compartmentalised complicit — believes in the partnership framework because it was what saved Ardenna after the Withdrawal. Do not let them lie on screen in act 1; omission only.
-- **Quartermaster** — academy ground floor. Hands out the starter pack. Company-logo on the first-aid kit and other gear. Genuinely warm. The specific shape of their compartmentalisation is TBD.
-- **Friend** — own house. The warm classmate. Uncomplicated, excited, present throughout. Likely candidate to stay warm through act 3 as one of the "never finds out" characters. The variance is what proves the warmth was always real.
-- **Friend's little sister** — friend's house. Introduced by name in Beat 2. Looks up to the player. The emotional stake of Beat 6. After act 1 she becomes a face the player loves in a town being hollowed out; the setting doesn't need to do anything else with her for her presence to be load-bearing in act 3.
-- **Rival (Gary-coded)** — own house. Warm Pokémon-rival furniture wrapping Company legitimacy saturation. Brags about a parent who works for the Company. Battles the player in Beat 5. Present throughout act 1.
-- **Company liaison NPC** — present at the graduation ceremony in Beat 3. Warmly welcomed by the academy. Sincere. Genuinely believes in the Partner Program. Does not lie in act 1.
-- **The CEO** — visits the town on graduation day. Beat 4. First appearance; will recur at stations further down the spine. Warm, articulate, self-deprecating, slightly manipulative in texture — *not* a debater. He agrees with the mentor and then goes further, in a way that feels like the adult in the room gently making the same point better.
+- **Mum** — player house. Heals the team throughout act 1. Classic Pokémon mum energy. No secrets. Never finds out. **Never given a first name** — she is always and only "Mum" in dialogue and script.
+- **Cassian** — the mentor. Academy ground floor. Earnest, heartfelt, genuinely loves rangering. Gives the graduation speech in Beat 3. Compartmentalised complicit — believes in the partnership framework because it was what saved Ardenna after the Withdrawal. Do not let Cassian lie on screen in act 1; omission only.
+- **Matthias "Matty"** — the quartermaster. Academy ground floor. Hands out the starter pack. Company-logo on the first-aid kit and other gear. Rugged, blue-collar warm, beloved by the recruits. The specific shape of Matty's compartmentalisation is TBD.
+- **Pip** — the friend. Pip's house. The warm classmate. Uncomplicated, excited, present throughout. Likely candidate to stay warm through act 3 as one of the "never finds out" characters. The variance is what proves the warmth was always real.
+- **Poppy** — Pip's little sister. Pip's house. Introduced by name in Beat 2. Looks up to the player. The emotional stake of Beat 6. After act 1 she becomes a face the player loves in a town being hollowed out; the setting doesn't need to do anything else with her for her presence to be load-bearing in act 3.
+- **Bran** — the rival. Bran's house. Gary-coded: smug, secretly fond, hyper-competitive. Wraps Company legitimacy saturation through his pride in his parent Meren. Battles the player in Beat 6. Present throughout act 1.
+- **Meren** — Bran's parent AND the academy's Partner Program liaison. **One character doing double duty.** Meren lives in Bran's house with Bran and works at the academy as the Company's on-site liaison — the person who runs the Partner Program and personally hands the player their starter in Beat 4. This consolidation is load-bearing: *the Company's face at the most important day of the player's life is the warmly-loved parent of the player's rival.* Maximum legitimacy saturation in one character. Meren is sincere, polished, professionally warm, and genuinely believes in the Partner Program. Does not lie in act 1.
+- **Tobias Thorne** — the CEO. Visits Linden on graduation day. Beat 5. First appearance; will recur at stations further down the spine. Warm, articulate, self-deprecating, slightly manipulative in texture — *not* a debater. He agrees with Cassian's graduation speech and then goes further, in a way that feels like the adult in the room gently making the same point better.
 - **Ambient ranger NPCs** — academy ground floor. Texture, not named cast.
 
 ## Beat list
@@ -68,55 +68,55 @@ The opening arc from new game to boarding the train. 10 beats. Act 1's warmth mu
 
 ### Beat 1 — Wake up at home
 
-Bedroom → downstairs → mum. Short warm dialogue; today is graduation day. Mum tells the player to go find their friend before heading to the academy, they're probably at home. Player steps outside into the town.
+Bedroom → downstairs → Mum. Short warm dialogue; today is graduation day. Mum tells the player to go find Pip before heading to the academy, Pip's probably at home. Player steps outside into Linden.
 
-Pure atmosphere. No battles, no menus beyond basic movement. First feel of the town. The friend's little sister may be visible somewhere in the town at a distance or the player may just pass the friend's house on the way.
+Pure atmosphere. No battles, no menus beyond basic movement. First feel of the town. Poppy may be visible somewhere in the town at a distance or the player may just pass Pip's house on the way.
 
-### Beat 2 — Visit the friend's house
+### Beat 2 — Visit Pip's house
 
-Walk into the friend's house. The friend is there, nervous-excited about graduation. **The little sister is present and introduced by name** — she thinks the player is cool, says something sweet about wanting to be a ranger like her big sibling someday. The friend grabs their bag. *"Let's go together."* Friend joins the player on the walk to the academy.
+Walk into Pip's house. **Pip** is there, nervous-excited about graduation. **Poppy is present and introduced by name** — she thinks the player is cool, says something sweet about wanting to be a ranger like her big sibling someday. Pip grabs their bag. *"Let's go together."* Pip joins the player on the walk to the academy.
 
-This beat exists specifically to make the little sister a face the player recognises *before* Beat 6 puts her in danger. Do not skip it, do not gate it behind optional dialogue.
+This beat exists specifically to make Poppy a face the player recognises *before* Beat 7 puts her in danger. Do not skip it, do not gate it behind optional dialogue.
 
 ### Beat 3 — Arrive at the academy ground floor
 
-Walk into the academy lobby. Mentor at the open desk greets the player by name. Quartermaster hands out the starter pack — **the first-aid kit has the Company logo on it.** This is the first Company legitimacy beat; it is delivered through a kind gift and will not register as foreshadowing. The rival is already there being smug. Ambient rangers are present. The mentor sends the new graduates upstairs to the classroom for the ceremony.
+Walk into the academy lobby. **Cassian** at the open desk greets the player by name. **Matty** (the quartermaster) hands out the starter pack — **the first-aid kit has the Company logo on it.** This is the first Company legitimacy beat; it is delivered through a kind gift and will not register as foreshadowing. **Bran** is already there being smug. Ambient rangers are present. Cassian sends the new graduates upstairs to the classroom for the ceremony.
 
 ### Beat 4 — Graduation ceremony + starter gift (classroom upstairs)
 
-The classroom. Desks, blackboard, the three recruits (player, friend, rival) at the front of the room or seated. The mentor gives a **heartfelt speech about the bond between rangers and Pokémon** — genuine, warm, good. This speech is the reference point the CEO will supersede in Beat 5 and must be written to be *actually good*, not a strawman for the CEO to knock down.
+The classroom. Desks, blackboard, the three recruits (player, Pip, Bran) at the front of the room or seated. **Cassian gives a heartfelt speech about the bond between rangers and Pokémon** — genuine, warm, good. This speech is the reference point the CEO will supersede in Beat 5 and must be written to be *actually good*, not a strawman for the CEO to knock down.
 
-Three Company-branded starter carriers on a table, presented by the **Company liaison NPC** as part of the academy's Partner Program. Liaison says something warm and sincere about the privilege of placing these starters with the new graduates. Player picks first. Friend picks. Rival picks. The species on offer are **TBD** — see open questions.
+Three Company-branded starter carriers on a table, presented by **Meren** (Bran's parent, the Company's Partner Program liaison — double duty is the point). Meren says something warm and sincere about the privilege of placing these starters with the new graduates. **Bran is visibly proud of Meren** — the rival's Company-pride delivery vehicle is right here in the ceremony. Player picks first (Rolycoly / Timburr / Rookidee). Pip picks. Bran picks.
 
-Ceremony ends. The mentor tells the graduates to come downstairs — the CEO is here for them.
+Ceremony ends. Cassian tells the graduates to come downstairs — **Tobias Thorne** is here for them.
 
-### Beat 5 — The CEO's arrival and speech (town square)
+### Beat 5 — Tobias Thorne's arrival and speech (town square)
 
-The new graduates head outside into the town square. **The CEO is waiting.** He has come to the academy personally for the graduation, and the entire town has gathered.
+The new graduates head outside into the Linden town square. **Tobias Thorne — the CEO — is waiting.** He has come to the academy personally for the graduation, and all of Linden has gathered.
 
-The CEO takes the stage after the mentor's speech is still fresh in the player's head. He **agrees with every word of it** — and then gently, warmly, articulately **goes further.** He reframes the mentor's language about the bond into Company language about the Partner Program. He does it the way an adult builds on a child's correct answer, not the way an opponent counters an argument. The mentor is visibly moved. The player should walk away from this scene thinking *the CEO really gets it, maybe better than our mentor does.*
+Thorne takes the stage after Cassian's speech is still fresh in the player's head. He **agrees with every word of it** — and then gently, warmly, articulately **goes further.** He reframes Cassian's language about the bond into Company language about the Partner Program. He does it the way an adult builds on a child's correct answer, not the way an opponent counters an argument. Cassian is visibly moved. The player should walk away from this scene thinking *Tobias really gets it, maybe better than Cassian does.*
 
-This is craft commitment #3 ("The CEO out-argues the mentor on screen") with the refined texture that he is not debating — he is **superseding warmly.** Slightly manipulative, not visibly so. The player should not flag him as suspicious.
+This is craft commitment #3 ("The CEO out-argues the mentor on screen") with the refined texture that Thorne is not debating — he is **superseding warmly.** Slightly manipulative, not visibly so. The player should not flag him as suspicious.
 
 This beat is the load-bearing ideological moment of act 1. Write it with care.
 
 ### Beat 6 — Rival fight in the square
 
-Immediately after the CEO's speech. The rival challenges the player to a battle in front of everyone — *"we're real rangers now, let's see what you've got."* First real combat. Classic Pokémon shape. Peak act 1 warmth: the player's first battle as a fully-minted ranger, in their hometown, under the warm afterglow of the CEO's approval.
+Immediately after Thorne's speech. **Bran** challenges the player to a battle in front of everyone — *"we're real rangers now, let's see what you've got."* First real combat. Classic Pokémon shape. Peak act 1 warmth: the player's first battle as a fully-minted ranger, in their hometown, under the warm afterglow of the CEO's approval and with Meren watching proudly.
 
-Win or lose, the scene ends warmly. The mentor calls the player over — there's a real mission to do.
+Win or lose, the scene ends warmly. Cassian calls the player over — there's a real mission to do.
 
-### Beat 7 — First ranger mission: rescue the friend's little sister
+### Beat 7 — First ranger mission: rescue Poppy
 
 **The act-1 tutorial mission that becomes the act-3 "you did this" moment.** Craft commitment #6 ("The player commits the crime").
 
-The friend's little sister has wandered out of town into the academy station's wilderness routes. A "dangerous" wild Pokémon is reportedly out there. The friend is scared. The mentor dispatches the player — this is what rangers do.
+**Poppy has wandered out of Linden** into the station's wilderness routes. A "dangerous" wild Pokémon is reportedly out there. **Pip is scared.** Cassian dispatches the player — this is what rangers do.
 
-The player walks into the academy station's walkable wilderness (the in-station routes, per the [hybrid spine model](setting.md#how-the-player-travels-the-spine-hybrid-trainwalk-model)). On the way, the player learns **catching mechanics** and fights a few low-level wild encounters.
+The player walks into Linden's walkable wilderness (the in-station routes, per the [hybrid spine model](setting.md#how-the-player-travels-the-spine-hybrid-trainwalk-model)). On the way, the player learns **catching mechanics** and fights a few low-level wild encounters.
 
-The player finds the sister. The "dangerous" wild Pokémon is present — it is the **mini-boss of the academy arc.** The fight is tuned to feel meaningful; this is the first time the player has to fight something that can meaningfully hurt them. The player defeats or drives off the Pokémon. The sister is unharmed. The player walks her back to town as a hero.
+The player finds Poppy. The "dangerous" wild Pokémon is present — it is the **mini-boss of the academy arc** (Houndour, see below). The fight is tuned to feel meaningful; this is the first time the player has to fight something that can meaningfully hurt them. The player defeats or drives off the Houndour. Poppy is unharmed. The player walks her back to Linden as a hero.
 
-Everyone celebrates. The friend is openly, tearfully grateful. The mentor is proud. Mum is relieved. This is the emotional peak of act 1.
+Everyone celebrates. Pip is openly, tearfully grateful. Cassian is proud. Mum is relieved. **Meren and Bran are both there too, Meren warmly congratulating the player.** This is the emotional peak of act 1.
 
 **What the player learns in act 3:** the "dangerous" wild Pokémon was a **Company-facility escapee** — traumatised, displaced, injured, looking for somewhere safe. The player drove it back into the wilderness where the Company's recovery teams eventually caught it again. The player didn't rescue a child from a monster. The player returned a victim to its abuser while being celebrated as a hero. The betrayal is maximally personal — the sister is a face the player loves, the "monster" was a victim, the celebration was a lie the town didn't know it was telling.
 
@@ -146,15 +146,15 @@ After the sister rescue, 1–2 small side missions from the mission board to bui
 
 Cuttable if act 1 is running long. Do not let side missions dilute Beat 7's emotional centrality.
 
-### Beat 9 — The mentor's send-off
+### Beat 9 — Cassian's send-off
 
-Back at the academy ground floor. The mentor calls the player over. The player is being sent to the **Quarry Station** for their first outward posting. Mentor is visibly proud. Friend says they'll miss the player. The little sister may be at the academy to say goodbye. Rival sneers but is clearly also affected.
+Back at the academy ground floor. Cassian calls the player over. The player is being sent to the **Quarry Station** for their first outward posting. Cassian is visibly proud. Pip says they'll miss the player. Poppy may be at the academy to say goodbye. Bran sneers but is clearly also affected.
 
 The player heads home. Mum heals the team one last time at home, says goodbye, and the warmth peaks.
 
 ### Beat 10 — Board the train
 
-The player walks south to the train station and boards the train to the Quarry. **Scripted train-ride sequence:** the train pulls out, and a side-view or window-view cutscene shows the view from the window for a short stretch — the rails, the trees, **and the polluted river running parallel.** The river is visibly wrong. The player will not notice in act 1. The attentive player will notice; they will file it under atmospheric detail. In act 3 this sequence is horror.
+The player walks south from Linden to the train station and boards the train to the Quarry. **Scripted train-ride sequence:** the train pulls out, and a side-view or window-view cutscene shows the view from the window for a short stretch — the rails, the trees, **and the polluted river running parallel.** The river is visibly wrong. The player will not notice in act 1. The attentive player will notice; they will file it under atmospheric detail. In act 3 this sequence is horror.
 
 End of act 1's home phase. The player arrives at the Quarry. Act 1 continues at the Quarry station until Beat 1 of the staggered reveal lands there.
 
@@ -208,11 +208,11 @@ Cross-referencing [story.md's craft commitments](story.md#craft-commitments):
 
 | # | Commitment | Where it lands |
 |---|---|---|
-| 1 | Legitimacy saturation | Beat 3 (first-aid kit logo), Beat 4 (Company liaison at ceremony, Company-branded starter carriers), ambient (academy is Company-built, rival's parent) |
+| 1 | Legitimacy saturation | Beat 3 (first-aid kit logo), Beat 4 (Meren personally hands out starters on Company-branded carriers), ambient (academy is Company-built, Bran's pride in Meren) |
 | 2 | Discredit the truth-tellers early | **Not in the academy arc.** Lives at the Jungle station per [decisions.md](../reference/decisions.md). |
 | 3 | The CEO out-argues the mentor on screen | Beat 5 — refined as warm supersession, not debate |
 | 4 | Coherent ideology, sincerely held | Beat 4 (mentor's speech) + Beat 5 (CEO's speech). Both believe it. |
-| 5 | Compartmentalisation, not hypocrisy | Mentor, quartermaster, liaison — act 1 establishes their warmth without lies |
+| 5 | Compartmentalisation, not hypocrisy | Cassian, Matty, Meren — act 1 establishes their warmth without lies |
 | 6 | The player commits the crime | **Beat 7 — the sister rescue.** Primary vehicle. |
 | 7 | Staggered three-beat reveal | Not in act 1. Beat 1 of the reveal lands at the Quarry (station 4). |
 | 8 | The Company never reveals itself | Global — no Company character is suspicious in the academy arc |
@@ -224,8 +224,8 @@ Cross-referencing [story.md's craft commitments](story.md#craft-commitments):
 These block implementation and should be resolved before build starts:
 
 - ~~The three starter species on offer at Beat 4.~~ **Locked 2026-04-08: Rolycoly / Timburr / Rookidee** (Rock / Fighting / Flying triangle; see "Starter trio" below).
-- **Specific names:** the mentor, the quartermaster, the friend, the friend's little sister, the rival, the rival's Company-employed parent, the Company liaison, the CEO. A dedicated naming pass for the academy cast is queued.
-- **The town's name.** (Station 3 is currently "Academy" as a placeholder; station naming is queued per [decisions.md](../reference/decisions.md).)
+- ~~Specific cast names.~~ **Locked 2026-04-08:** Mum (unnamed), Cassian (mentor), Matthias "Matty" (quartermaster), Pip (friend), Poppy (Pip's little sister), Bran (rival), Meren (Bran's parent AND Company liaison — merged into one character), Tobias Thorne (CEO).
+- ~~The town's name.~~ **Locked 2026-04-08: Linden.**
 - **Starter-pack contents** beyond the first-aid kit.
 - **Mission board postings** — the specific fair-play-foreshadowing notices that should be readable on the board in act 1 and remembered in act 3.
 - **Specific dialogue beats for the CEO's Beat 5 speech** — this is load-bearing prose and wants its own writing pass.
@@ -233,7 +233,7 @@ These block implementation and should be resolved before build starts:
 
 ## Implementation notes
 
-- Warp map list (draft): `MAP_ACADEMY_TOWN`, `MAP_ACADEMY_TOWN_PLAYER_HOUSE_1F`, `MAP_ACADEMY_TOWN_PLAYER_HOUSE_2F`, `MAP_ACADEMY_TOWN_FRIENDS_HOUSE`, `MAP_ACADEMY_TOWN_RIVALS_HOUSE`, `MAP_ACADEMY_RANGER_ACADEMY_1F`, `MAP_ACADEMY_RANGER_ACADEMY_2F`, `MAP_ACADEMY_STATION` (train platform), `MAP_ACADEMY_ROUTE_01` (Beat 7 wilderness). Names provisional until the town/station naming pass.
+- Warp map list (draft): `MAP_LINDEN_TOWN`, `MAP_LINDEN_PLAYER_HOUSE_1F`, `MAP_LINDEN_PLAYER_HOUSE_2F`, `MAP_LINDEN_PIPS_HOUSE`, `MAP_LINDEN_BRANS_HOUSE`, `MAP_LINDEN_RANGER_ACADEMY_1F`, `MAP_LINDEN_RANGER_ACADEMY_2F`, `MAP_LINDEN_STATION` (train platform), `MAP_LINDEN_ROUTE_01` (Beat 7 wilderness).
 - All scripts in Poryscript (never raw .s). Scripts live next to their maps per [CLAUDE.md](../../../CLAUDE.md).
 - Story progression uses vars, not flags: a new `VAR_ACT_1_PROGRESS` (or similar) tracks which beat the player is on. Flags only for true booleans.
 - `TrainingHall` placeholder map from the current tech demo is *not* the academy. The academy is a fresh build.
