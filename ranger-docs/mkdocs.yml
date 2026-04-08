@@ -38,6 +38,7 @@ nav:
   - Design:
       - Story: design/story.md
       - Setting: design/setting.md
+      - Academy Arc: design/academy-arc.md
       - Rank System: design/rank-system.md
       - Ranger Gear: design/ranger-gear.md
       - Mission Structure: design/mission-structure.md
