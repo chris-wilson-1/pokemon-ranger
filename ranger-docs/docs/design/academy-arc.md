@@ -122,7 +122,20 @@ Everyone celebrates. The friend is openly, tearfully grateful. The mentor is pro
 
 **Nothing in Beat 7 foreshadows this.** The mini-boss is written straight. No unease, no hint, no "the Pokémon looks hurt" observation. In act 3 the player's memory of this beat does the work. The scene earns its later weight by being unambiguously heroic on first play.
 
-The specific species of the "dangerous" Pokémon is TBD (see open questions). Must be a species that plausibly lives at a Company industrial facility and plausibly escapes — Machoke, Graveler, Numel, Houndour are current placeholder candidates.
+**The mini-boss species is Houndour** (locked 2026-04-08). Level ~10–12, so the fight is real but beatable for a player running a level 8–9 base-form starter. Houndour is a pack-hunting, guard/security Pokémon in canon, which lets the act 3 reveal land without retrofitting: the Company uses Houndour packs as patrol/security at their extraction sites, and this one got separated from its pack and attacked a child it mistook for a handler.
+
+**Why Houndour specifically:**
+
+- **Visually threatening at base stage.** Small fanged demon-puppy with flame-breath and bone ridges. Inherently menacing at any level — doesn't need to be final-stage to scare a child in the woods.
+- **Power-tier correct.** Base stats 330, low-mid tier. At level 10–12 it's a real scripted fight against level 8–9 starters without being crushing.
+- **Matchups are clean for all three starters.**
+    - **Rolycoly (Rock):** Rock 2× on Fire (SE). Fire 0.5× on Rock (resisted). Rolycoly dominates.
+    - **Timburr (Fighting):** Fighting 2× on Dark (SE). Dark 0.5× on Fighting (resisted). Timburr dominates.
+    - **Rookidee (Flying):** Flying and Fire/Dark are mutually neutral. Even fight, winnable on stats and Flying STAB.
+- **Canonically industrial-adjacent without retrofitting.** Houndour are pack animals used in canon as trackers, guards, and hunters. "Escaped Company security Pokémon" writes itself.
+- **Dark typing reads as "dangerous wild creature" in-world**, not as thematic darkness. The mini-boss is framed as the scary thing in the woods, so Dark typing fits the narrative framing of the scene rather than undercutting act 1's warmth.
+
+**The background horror that grows on replay:** Houndour are *pack hunters*. The act 3 reveal isn't just "this one was a victim" — it's "the Company uses whole packs of these as site security, and this one got separated from its pack, and the pack is still out there, working." The sister-rescue scene grows a background horror the attentive act 3 player can't unsee.
 
 ### Beat 8 — 1–2 side missions (flexible)
 
@@ -211,7 +224,6 @@ Cross-referencing [story.md's craft commitments](story.md#craft-commitments):
 These block implementation and should be resolved before build starts:
 
 - ~~The three starter species on offer at Beat 4.~~ **Locked 2026-04-08: Rolycoly / Timburr / Rookidee** (Rock / Fighting / Flying triangle; see "Starter trio" below).
-- **The species of the "dangerous" wild Pokémon in Beat 7.** Must be plausible as a Company-facility escapee and plausible as a mini-boss for a starter-level team. Current candidates: Machoke, Graveler, Numel, Houndour.
 - **Specific names:** the mentor, the quartermaster, the friend, the friend's little sister, the rival, the rival's Company-employed parent, the Company liaison, the CEO. A dedicated naming pass for the academy cast is queued.
 - **The town's name.** (Station 3 is currently "Academy" as a placeholder; station naming is queued per [decisions.md](../reference/decisions.md).)
 - **Starter-pack contents** beyond the first-aid kit.
