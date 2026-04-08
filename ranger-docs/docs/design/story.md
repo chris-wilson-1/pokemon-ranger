@@ -1,6 +1,6 @@
 # Story
 
-The main plot spine for the hack. Drafted 2026-04-07. Region-level setting is captured separately in [setting.md](setting.md) (region: **Ardenna**; the wound: **Xerneas dormancy**). Many proper nouns (Company name, CEO, mentor, station names) are still open.
+The main plot spine for the hack. Drafted 2026-04-07; consistency pass 2026-04-08. Region-level setting is captured separately in [setting.md](setting.md) (region: **Ardenna**; the wound: **Xerneas dormancy**). The villain corporation is **the Thorne Foundation**, fronted by CEO **Tobias Thorne** — this page sometimes still uses the generic "the Company" where that framing serves the thesis, but the canonical name is the Foundation. See [decisions log 2026-04-08](../reference/decisions.md) for the naming rationale.
 
 > See also: [Setting (Ardenna)](setting.md), [Tone & Story Arc](../vision/tone-and-arc.md), [Pillars](../vision/pillars.md).
 
@@ -11,10 +11,21 @@ A Ranger recruit graduates into a Corps that has been quietly captured from with
 ## The shape
 
 ```
-Act 1: wholesome ranger academy ─┐
-                                  ├── the turn (single unflinching scene) ──▶ Act 3: muted, grieving, careful
-Act 2: missions, escalation ─────┘
+Act 1 ── unguarded warmth ─────────────────────────────┐
+  academy (Linden, station 3) → first posting (Quarry) │
+                                                       │
+                                          Beat 1: a mission feels off (deniable)
+                                                       │
+Act 2 ── the staggered reveal ─────────────────────────┤
+  missions across the spine, warmth + unease           │
+                                                       │
+                                          Beat 2: a pattern (undeniable, abstract)
+                                          Beat 3: the unflinching scene (the turn)
+                                                       │
+Act 3 ── desaturated, grieving, careful ───────────────▶
 ```
+
+Act 1 is not the academy alone — it extends through the player's first outward posting at the Quarry (station 4) and ends when the first deniable beat of the reveal lands there. Act 2 is the rest of the tour of duty: warmth continuing on the surface, the three-beat reveal layered underneath. The turn is not a single scene but the *whole* staggered reveal — Beat 3 is the single unflinching moment at the bottom of it.
 
 The opening earns the contrast. Act 3 is not grimdark — it is a *desaturated* version of the same world. Sunlight still hits the ranger base, just at a different angle. The tutorial music doesn't play anymore.
 
@@ -24,7 +35,13 @@ The opening earns the contrast. Act 3 is not grimdark — it is a *desaturated* 
 
 Genuinely good, genuinely captured. Most rangers don't know. Some leaders are bought, some blackmailed, some fed bad intel, most are doing the job they signed up for. The institution is real and sincere — that's why the capture works and why it hurts.
 
-The Corps was *philosophically defenseless* against the Company from day one, because the Corps's foundational belief (the human–Pokémon bond is sacred) is the same belief the Company built its industrial logic on top of. The capture was a logical operation, not a hostile one.
+The Corps was *philosophically defenseless* against the Foundation from day one, because the Corps's foundational belief (the human–Pokémon bond is sacred) is the same belief the Foundation built its industrial logic on top of. The capture was a logical operation, not a hostile one.
+
+**The Ranger tradition, and what the Foundation changed.** The original Ranger gesture — the in-world reading of the traditional stylus — was **temporary consent-aid**. A ranger in the field signals a nearby wild Pokémon, the Pokémon lends help for as long as the work takes, and then walks back into the wild when the work is done. No carrying, no owning, no scaling. The Corps was founded on this gesture; it was the profession. After the Withdrawal (Xerneas dormant, wild populations thinned, the region in crisis), the Thorne Foundation offered the Pokéball as a humane modern replacement, arguing that the old gesture was no longer reliable — there were too few wild Pokémon in range to summon, the gesture was unsafe, and a ranger with a partnered team on their belt was simply more effective at the work the Corps was created to do. The argument was reasonable at the time. The Corps adopted the ball, rebranded it internally as the "Mission Capture Tag" to preserve institutional identity over the substance it had given up, and two generations later every active ranger — including Cassian, including Matty, including the player — operates inside Foundation technology without knowing it *is* Foundation technology.
+
+This is the deepest layer of the capture, and it is invisible to anyone inside the Corps on first inspection. No one in the academy arc is lying about it; they were all taught the same way, by people who were taught the same way, by people who were present during the crisis and made what felt like a practical choice. The knowledge of the old way survives in three places only: (1) retired veterans on the abandoned tail, (2) the ex-ranger cell, (3) a handful of dismissed "cranks" at stations along the spine who won't stop talking about it and who everyone has learned to ignore.
+
+(No mechanical change — the player still throws balls, catches Pokémon, carries a team. [Pillar #3](../vision/pillars.md) holds: no stylus minigame. Only the in-lore meaning of the mechanic changes, and only late enough that the revelation restructures replay.)
 
 ### The Company
 
@@ -59,7 +76,9 @@ A small cell — 2–3 named NPCs in v1, with room to grow post-turn — of form
 - The Corps and the Company *coordinated* to brand them criminals — one of the conspiracy's earliest visible moves, and the player participated in it without knowing.
 - Some of them know exactly what they've done and carry it. Some have hardened past caring.
 
-This is the Andor / *The East* / *Night in the Woods* register: radicalization as a tragedy that produced people who are simultaneously correct and broken. They are not "secretly good guys." Their position is the only coherent counter to the Company's ideology — *the bond is real and sacred and therefore cannot be scaled, systematized, or institutionalized* — and that position is almost mystical and politically useless, which is why they ended up with bombs.
+This is the Andor / *The East* / *Night in the Woods* register: radicalization as a tragedy that produced people who are simultaneously correct and broken. They are not "secretly good guys." Their position is the only coherent counter to the Foundation's ideology — *the bond is real and sacred and therefore cannot be scaled, systematized, or institutionalized* — and that position is almost mystical and politically useless, which is why they ended up with bombs.
+
+**What they actually know.** The cell are the last living practitioners of the original Ranger gesture — the stylus-consent tradition the Corps gave up during the Withdrawal (see "The Ranger Corps" above). Their position is not mysticism; it is **professional knowledge** the Foundation worked hard to discredit. They can do the old work in front of the player in act 3 and the old work visibly succeeds, which is what Foundation technology and ideology cannot survive being compared to. They were branded terrorists partly because their actual threat was that they remembered how the profession used to work and would not stop saying so out loud. The sabotage came later, after the smear campaign made quieter channels useless.
 
 ### The player
 
@@ -72,7 +91,7 @@ The player's arc:
 3. Unwitting instrument of the Company (the player commits the crime, see below)
 4. Discovery, through their own past actions, of what they've been part of
 5. Navigation of a world where no existing faction is clean
-6. Becoming the nucleus of something new — neither captured nor radicalized
+6. At the Eternal Tree, in front of Thorne, performing the old Ranger gesture for the first time — releasing the team, watching them choose to return for one fight, watching them leave again. Neither captured nor radicalized; the synthesis is enacted, not argued. See [The finale](#the-finale).
 
 ## Craft commitments
 
@@ -120,11 +139,13 @@ The turn is not one scene. It is three:
 
 Each beat lets the player feel smart for catching it before the next.
 
-### 8. The Company never reveals itself
+### 8. The Foundation never reveals itself (and the CEO breaks only on evidence)
 
-The world reveals it. The player's own actions reveal it. A grieving complicit NPC reveals it. **The Company keeps smiling through the credits.** The CEO is still warm, still on screen, still making the better argument *after* the player knows. The dissonance — him meaning it, the player knowing — is the actual horror.
+The world reveals it. The player's own actions reveal it. A grieving complicit NPC reveals it. **The Foundation keeps smiling through most of the credits.** Through act 1, act 2, the reveal, and into the finale, Thorne is still warm, still on screen, still making the better argument *after* the player knows. The dissonance — him meaning it, the player knowing — is the horror for most of the game.
 
-Even in the finale confrontation, the CEO does not break character. He wins the argument on points and acts anyway. The player wins by *acting*, not by out-arguing him.
+**At the finale, Thorne breaks — but only on evidence his framework cannot categorise, never on principles.** Sincere people lose composure when reality contradicts the metric they measure it with. Thorne can defend "partnership" in the abstract forever; what he cannot defend against is **watching the old Ranger gesture work in front of him**, at the Tree, performed by a recruit who has only been a ranger for a few months. His grandfather's argument to the Corps after the Withdrawal (wild populations too thin, the gesture no longer safe, the ball the humane modern path) is disproven as professional fact at the wellspring of the thing his Foundation was built to imitate. He does not concede on principles — he flinches, loses his composure, is unable to finish a sentence. The player wins by *acting*, not by out-arguing him. This is a professional critique, not a rhetorical one: his framework has a blind spot the player illuminates.
+
+(Supersedes an earlier framing in which the CEO "wins on points and acts anyway." The correction is that a villain whose argument is about on-screen empirical harm cannot be dramatically unrebuttable without the writing protecting him from the world. See [finale notes below](#the-finale) and the 2026-04-08 decisions entry on the finale shape.)
 
 ### 9. Fair-play foreshadowing
 
@@ -151,7 +172,41 @@ The player's starter is a Company-gifted partner. In the finale, the CEO points 
 
 **Act 3:** desaturated, not black. Mother 3 / late *Outer Wilds* / post-Aerith *FF7*. NPCs who used to greet you warmly now nod. The academy still has students. Sunlight still hits the ranger base, just at a different angle. The tutorial music is gone. **Small recovered warmths in act 3** (a complicit NPC who breaks and helps; a moment with the starter the CEO's argument hasn't fully poisoned; a wild population the Company hasn't reached) hit ten times harder against the muted backdrop than they would against unbroken brightness.
 
-**The finale:** the CEO does not break character. He wins on points. The player wins by acting. The credits are quiet.
+**The finale:** Thorne breaks only on evidence, not on principles. The player wins by acting — specifically, by performing the old Ranger gesture at the Tree. The credits are quiet. See the full shape below.
+
+## The finale
+
+The game's climax has a fixed structure with two weights on the same ending. Full shape:
+
+**1. The pilgrimage south.** Post Beat 3 at Terminus, the player walks back through the desaturated spine to Linden and, for the first time in the game, south through the previously-locked gate into the abandoned tail (stations 1–2, retirement village, Eternal Tree). The player has been able to see this path since the Beat 1 morning walk; they have never been allowed to take it. Walking it is act 3's geography payoff.
+
+**2. At the Tree.** Thorne is already there. Alone or with minimal security, in character as the man who will always show up personally to make the better argument. He has come because the player is the first person in two generations in a position to reawaken knowledge the Foundation was built to obscure. The dormant Tree is environmental witness.
+
+**3. The prompt.** The player is offered the chance to release their team. Any subset, including/excluding the starter, including none at all. Released Pokémon walk into the tail wilderness — the one biome the Foundation never extended into. The Tree does not respond. Xerneas does not wake. The player gets no confirmation the release meant anything.
+
+**4. The confrontation.** Thorne makes his case in front of the Tree, with whatever team the player kept on their belt. His speech lands — he is still sincere, still articulate, still the better speaker. The player has no rhetorical answer. (Inherited from craft commitment #4.)
+
+**5. The battle, two weights.**
+
+- **Released path.** Thorne's tone shifts in real time as released Pokémon walk back into the fight one at a time. First condescension ("a dramatic gesture; the work continues"). Then unease as the pattern becomes legible. Then, when the **starter** arrives on Thorne's "does it love you?" line — the specific rhetorical trap from craft commitment #10 — his composure breaks. He is watching the old Ranger gesture work, at the Tree, in front of him, for the first time in two generations. His grandfather's post-Withdrawal argument is being refuted as professional fact by a recruit. He loses not on principles but on evidence his framework cannot categorise. The battle is the hardest fight in the game. The player wins with whatever they kept plus whatever came back.
+
+- **Kept path.** Thorne warms approvingly to a player who agreed with him. *"Good — don't let anyone tell you to abandon the ones who chose you. That's the whole point."* He means it. In his framework, the player just proved him right. The battle is still the hardest fight in the game — Thorne is not softer on a player who agreed with him. Post-battle, Thorne concedes the match but not the framework and walks away composed. Nothing in the world has changed. The game trusts the player to feel that.
+
+Neither weight is "the good ending" in a branching-moralist sense. Both are coherent readings of the specific journey the player took. One difficulty / one ending pillar holds: same final scene, same boss, same battle, same credits; what varies is the conversation and whether the framework was ever challenged.
+
+**6. The starter's choice (released path).** After the battle, the released Pokémon leave again. The release was permanent; the return was a visit. The starter does not walk back into the player's ball — it stays at the Tree, by its own choice. The player's verb was "bring it here." The starter's verb was "stay." This is the load-bearing moment that keeps the scene honest: the bond proved itself *precisely by* not being a leash.
+
+**7. Credits.** Quiet in both weights. On the released path, the *open* register (grief plus opening). On the kept path, the *closed* register (the Foundation continues, the player goes home with their team, nothing has changed).
+
+**8. Post-credits coda (released path only).** One scene, not a montage. Linden, some time later. Same camera angle as the Beat 1 walk-out-of-the-house shot, so attentive players feel the rhyme. A young ranger (not the player, someone new) at the edge of the clearing near the academy, performing the old gesture nervously for the first time. A wild Pokémon from the Linden wilderness lends aid and walks back into the trees. **Cassian** is watching and teaching — he has broken and relearned and is the one to carry the knowledge forward. No Foundation logo anywhere in the frame; the logo has been on everything for 30 hours and its absence is the cue. The player's released starter may be briefly visible somewhere in the Tree-zone or tail wilderness, free and fine. The Tree remains dormant; Xerneas does not wake on screen. The distance has narrowed. The question remains open.
+
+The kept path has no coda. The credits end at Thorne's composed farewell. This is not punishment — the game does not owe the kept-path player an epilogue about a tradition they chose not to re-enter. The closed ending stays closed.
+
+**Woven-in pieces:**
+
+- **The ex-ranger cell is silently present near the Tree**, unengageable. No dialogue required. They are the only other people in Ardenna who walked this far south, and the game trusts the player to understand what that means.
+- **An epilogue line (released path)** reports that a complicit NPC — Matty or Cassian, TBD — made the same walk south alone in the weeks after. Testimony begins, slowly, in the months after the credits. We hear about it; we do not see it.
+- **Houndour from Beat 7 (optional, high-cathartic).** One of the Pokémon that walks out of the wilderness to fight at the player's side in the released path can be the **specific Houndour from Beat 7** — now freed from Foundation security service, having made its way back. Not as forgiveness, not as revenge, as presence. It survived. It found its way. It chose to be there. Very cheap to implement (one flagged encounter, one cutscene entrance); may be the single most cathartic beat in the game.
 
 ## What this story does NOT do
 
@@ -167,12 +222,24 @@ The player's starter is a Company-gifted partner. In the finale, the CEO points 
 
 These belong in [open questions](../reference/open-questions.md) and will be resolved as setting and mission design firm up:
 
-- The Company's name and visual identity (logo, color, typography)
-- The CEO's name, appearance, and voice
-- The mentor's name, role, and the specific shape of their compartmentalization
+- The Thorne Foundation's visual identity (logo, color, typography)
+- Tobias Thorne's appearance and voice
+- The specific shape of Cassian's compartmentalisation (especially: Cassian is the recommended face of the post-credits coda, which depends on the shape of his break)
+- Matty's compartmentalisation shape; also which of Matty/Cassian makes the off-screen southern walk in the released-path epilogue line
 - The 2–3 ex-ranger cell members (names, prior roles, current state)
-- The specific tutorial mission that becomes the act-3 "you did this" moment
-- The specific scene that is the unflinching one (Beat 3 of the reveal)
-- Which Pokémon species are the visible victims at extraction sites (Machoke, Wailmer, Graveler are placeholders)
-- Whether the region has a recent historical wound that the Company exploited to enter
-- How many ranger bases / "gym equivalents" the story spans, and where the turn falls relative to them
+- The specific scene that is the unflinching one — Beat 3 of the reveal at the Terminus station
+- Additional visible-victim species at extraction sites beyond Houndour packs (Machoke, Wailmer, Graveler remain placeholders for other sites)
+- The **act-2 retired veteran** on the abandoned tail who first makes the stylus tradition explicit (location = station 2 retirement village; name, prior role, pretext for the player's visit all TBD)
+- The **act-2 southward mission hook** that sends the player to the veteran — needs to be small, personal, not ideological
+- What the old Ranger gesture actually looks like visually in-world (the in-fiction equivalent of a stylus motion; required for the finale release scene, the ex-ranger cell's act-3 use of it, and the coda)
+- How the released-pokemon-return mechanic actually works in the finale battle (staggered wave, bench replacements, scripted arrivals — implementation TBD)
+- Whether the **Houndour from Beat 7** returns in the finale battle (strong recommendation in `story.md`; low cost; user call)
+
+**Resolved this session (2026-04-08)**:
+
+- Finale shape — Tree confrontation + release + two weights + coda. See [The finale](#the-finale) and the 2026-04-08 decisions entry.
+- Ranger tradition lore — stylus-consent was original, Pokéball is Foundation innovation adopted post-Withdrawal. See [The Ranger Corps](#the-ranger-corps) and the 2026-04-08 decisions entry.
+- Thorne breaks on evidence, not principles (overriding earlier craft commitment #8).
+- Player arc step 6 — enacted at the Tree, not argued elsewhere.
+
+**Resolved in earlier sessions:** Company name → Thorne Foundation; CEO → Tobias Thorne; the "you did this" tutorial mission → Beat 7 Poppy rescue at Linden (Houndour mini-boss); the historical wound → the Withdrawal / Xerneas dormancy; station count and turn placement → 8 stations, Beat 1 at the Quarry (station 4), Beat 3 at Terminus (station 8). See [decisions.md](../reference/decisions.md).
