@@ -29,6 +29,24 @@ A single linear infrastructure corridor runs the length of Ardenna. It has two p
 
 Together they are the only practical way to move long distances through Ardenna. They are also the geographic axis the entire game takes place along.
 
+### How the player travels the spine — hybrid train/walk model
+
+The spine is *not* uniformly train-served. Travel along Ardenna splits into three regimes, each doing distinct story work:
+
+- **The served middle (stations 3–6: Academy, Quarry, Jungle, Flagship).** Standard train service. This is the act 1 / early act 2 commuter-ranger experience. The player boards trains at stations and rides the rails between them; connecting overworld routes between these stations *do not exist*. The polluted river is visible from the train window on every trip, in every direction, from hour one.
+- **The abandoned tail (stations 1–2: retirement village, Eternal Tree).** *No rail service.* The Company never extended — or quietly discontinued — rail service to the tail after the Withdrawal. The retirement village was abandoned by the Company's reconstruction; the Company actively does not want people near the dormant Tree. The player walks to the tail on foot from the academy, heading south. The lack of rail is itself a clue the player files under "nothing important down there" until they realise what "nothing important" means to the Company.
+- **The severed end (stations 6–8: Flagship, Marsh, Terminus).** Originally train-served. An **eco-terrorist rail attack** severs the line between Flagship and Terminus in act 2/3, forcing the player to walk Flagship → Marsh → Terminus on foot. The attack originates from the eco-terrorist cell's Marsh hideout, which means the forced walk takes the player *through the cell's own territory* to reach the port. Beat 3 at Terminus is approached on foot through the downstream pollution sink, not delivered by train.
+
+Each station itself is a **town + walkable wilderness routes**. Routes live *inside* stations, not between them. Ranger missions — the rank-up content — happen on these in-station routes. This preserves the classic Pokémon walking/exploration/wild-encounter loop while keeping station-to-station travel on rails (plus the two deliberate walkable chunks above).
+
+**Why this specific shape:**
+
+- The train does the "the spine is the Company's axis" theme delivery (every journey is on Company-built infrastructure, the polluted river is guaranteed-visible).
+- The tail walk delivers the "the Company forgot this place" feeling *through* the traversal itself — no ticket, no schedule, you just have to go there.
+- The act-3 forced walk is the geographic inverse of act 1's train rides: the train carried you *past* the atrocity sites; the walk forces you to *see* every downstream effect at the moment the story needs you to. Off-spine-is-more-alive stops being an abstract claim and becomes a thing the player walks through.
+- The eco-terrorists force the player into their own hideout, on their ground, post-turn, with everything the player knows now. Beat 3's approach corridor is the cell's territory.
+- Scope stays controlled: only two walkable chunks (tail; Flagship→Marsh→Terminus) instead of seven inter-station routes.
+
 ### The river is visibly degraded
 
 Wherever the rail line runs alongside the river — which is most of its length — the river is wrong. The colour is off. There is foam on the banks in places. The Wailmer counts in old ranger field journals don't match the Wailmer counts you can see today. Migrations that used to happen along the river either don't happen any more or happen on different schedules.

@@ -19,6 +19,8 @@ Things explicitly undecided. Each should resolve into a [Decisions Log](decision
 - **Which species "left during the Withdrawal"** and are absent from the regional dex
 - **Tile/encounter art direction for the river degradation** — colour shift, foam, sparseness, what reads from the train
 - **Exact Fire-type roster** at the Company industrial sites — which species, which stations, and how the "flourishing but unhealthy" framing reads mechanically
+- **Rail attack trigger point** — exactly where in the story the eco-terrorists sever the Flagship↔Terminus line, and what the player is doing when it happens
+- **What the walkable chunks contain** — the tail walk (Academy→retirement village→Tree) and the act-3 forced walk (Flagship→Marsh→Terminus) need route-level content design: encounters, set-pieces, trainer/NPC placement
 
 ## Mechanics
 
