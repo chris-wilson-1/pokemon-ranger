@@ -145,6 +145,50 @@ The player walks south to the train station and boards the train to the Quarry. 
 
 End of act 1's home phase. The player arrives at the Quarry. Act 1 continues at the Quarry station until Beat 1 of the staggered reveal lands there.
 
+## Starter trio
+
+Locked 2026-04-08. The academy's Partner Program offers three starters at the Beat 4 graduation ceremony, forming a **Rock / Fighting / Flying** triangle — a deliberately non-traditional choice that signals "ranger partner, not adventurer starter."
+
+| Slot | Line | Final stage typing |
+|---|---|---|
+| Rock | **Rolycoly → Carkol → Coalossal** | Rock/Fire |
+| Fighting | **Timburr → Gurdurr → Conkeldurr** | Fighting |
+| Flying | **Rookidee → Corvisquire → Corviknight** | Flying/Steel |
+
+**Triangle at base stage (clean):** Fighting beats Rock (2×), Rock beats Flying (2×), Flying beats Fighting (2×). Standard cycle.
+
+**Triangle at mid stage (shifting):** Carkol gains Fire, which neutralises Fighting's advantage (Fighting into Rock/Fire = 2 × 0.5 = 1× neutral). Gurdurr and Corvisquire unchanged. The cycle has already started to break in Rolycoly's favour.
+
+**Triangle at final stage (broken, quietly dominant Rock):**
+
+- **Coalossal (Rock/Fire) > Corviknight (Flying/Steel):** Coalossal's Fire hits Corviknight for 2× (steel weakness). Corviknight's Flying is resisted by Fire (0.5×); its Steel moves are *doubly* resisted by Rock/Fire (0.25×). Hard dominance.
+- **Corviknight > Conkeldurr:** Flying still 2× on Fighting. Corviknight's Steel resists Fighting's 2×-on-Steel via its Flying half (0.5 × 2 = 1×). Still dominant.
+- **Conkeldurr = Coalossal:** Fighting into Rock/Fire is neutral (2 × 0.5 = 1×). Rock and Fire both hit pure Fighting neutrally. **Fighting's advantage is gone entirely.** Completely neutral matchup.
+
+Result: Coalossal > Corviknight > Conkeldurr = Coalossal. **Rolycoly becomes quietly the strongest pick at final-stage typing alone.**
+
+### Why this is perfect for the story
+
+The rock/fighting/flying triangle was chosen for tone (ranger partner aesthetic, working-class, not adventurer-coded) — but **Rolycoly's quiet endgame dominance is not a balance mistake.** Rolycoly is the most industrial, most Company-adjacent of the three — a coal mineral that evolves into a walking furnace. Its identity directly mirrors the Company's Fire-type industrial ecology established in [setting.md](setting.md#type-coverage).
+
+If the player picks Rolycoly because it's "the cool one" or "the strongest one," they have picked the starter whose entire identity rhymes with the Company's manufactured ecology. The CEO's finale argument ([story.md craft commitment #10](story.md#craft-commitments)) lands *hardest* on a Coalossal player: *you love this coal-powered thing, it loves you, and everything it represents is the thing we are trying to dismantle — and mechanically, it was the correct choice.*
+
+This is not signposted in act 1. The player picks whichever they like the look of, or whichever feels strongest after a few battles. The resonance only exists in retrospect. Fair-play foreshadowing hidden in the *type chart*.
+
+### Evolution method overrides
+
+Default Timburr-line evolution is level 25 → trade-holding-Protector, which breaks in solo play. Also, the Timburr line's default levels don't match the other two starter lines' pacing. Override the entire line to match:
+
+| Line | Stage 1 → 2 | Stage 2 → 3 |
+|---|---|---|
+| Rolycoly | level 18 | level 34 |
+| Rookidee | level 18 | level 38 |
+| **Timburr (override)** | **level 19** | **level 37** |
+
+So the Timburr line becomes: **Timburr → (level 19) → Gurdurr → (level 37) → Conkeldurr.** Straight level-up, no trade, no held item. Places it right between the pacing of the other two lines.
+
+This lives in `src/data/pokemon/species_info/` (evolution data is per-species in current pokeemerald-expansion). Make the change at the same time the starter list is wired up.
+
 ## Craft commitments delivered in the academy arc
 
 Cross-referencing [story.md's craft commitments](story.md#craft-commitments):
@@ -166,7 +210,7 @@ Cross-referencing [story.md's craft commitments](story.md#craft-commitments):
 
 These block implementation and should be resolved before build starts:
 
-- **The three starter species on offer at Beat 4.** Must be a trio that feels like the Partner Program's "welcome gift" — friendly-looking, bond-coded, not intimidating. The player's pick will be the CEO's finale argument, so all three have to work for that. Standard Pokémon trio (Grass/Fire/Water) or something unconventional?
+- ~~The three starter species on offer at Beat 4.~~ **Locked 2026-04-08: Rolycoly / Timburr / Rookidee** (Rock / Fighting / Flying triangle; see "Starter trio" below).
 - **The species of the "dangerous" wild Pokémon in Beat 7.** Must be plausible as a Company-facility escapee and plausible as a mini-boss for a starter-level team. Current candidates: Machoke, Graveler, Numel, Houndour.
 - **Specific names:** the mentor, the quartermaster, the friend, the friend's little sister, the rival, the rival's Company-employed parent, the Company liaison, the CEO. A dedicated naming pass for the academy cast is queued.
 - **The town's name.** (Station 3 is currently "Academy" as a placeholder; station naming is queued per [decisions.md](../reference/decisions.md).)
