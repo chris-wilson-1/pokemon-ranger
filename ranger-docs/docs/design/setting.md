@@ -41,22 +41,67 @@ A direct consequence: **off-spine wilderness is dramatically more alive than spi
 
 ### Stations
 
-7–8 stations along the spine, exact count and identity TBD. The locked structural facts:
+**8 stations along the spine.** The academy sits near one end with a 2-station tail behind it (visited late), and 5 outward stations ahead of it. Names are descriptive placeholders — a dedicated naming pass comes later.
 
-- **The academy is near one end** of the spine, with a short tail of 1–2 stations behind it that the player visits *late* in the story.
-- The tail contains the geographic legacy of the wound: probably the Eternal Tree, possibly the ruins of the older institution the Company replaced when they rebuilt the academy, and likely a memorial to the rangers lost in the lean years.
-- The remaining 4–5 stations sit *outward* from the academy along the spine, with the three [reveal beats](story.md#7-staggered-three-beat-reveal) landing at three of them.
-- One outward station is the **Company's flagship** — the place where the Company's good face is most visible. The model facility. The town the spine literally rebuilt.
-- One outward station is **off-spine-adjacent** — close to the wilderness foothold where the eco-terrorist cell operates.
-- The finale may happen at the terminus *or* be staged to pull the player back to the tail at the very end, tying the wound to the present. Open.
+The spine runs **mountains → sea**. The Eternal Tree is at the mountain source; the river flows downhill the length of Ardenna and meets the sea at the terminus. The pollution flows the same direction — the closer to the source, the cleaner; the closer to the sea, the worse. This is a *visible* gradient the player can feel without anyone explaining it.
+
+A direct thematic consequence: **the further from the Tree, the more the Company has rewritten the land.** The mountain tail has the strangest, oldest, most fairy-coded ecology. The coastal terminus has the most Company-managed, most domesticated, most thinned ecology. The middle stations are a gradient between.
 
 ```
-[tail station(s)] ── [ACADEMY] ── [station] ── [station] ── [station] ── [station] ── [terminus]
-     ↑                  ↑                                                                ↑
-     visited late       start                                                            finale?
-     (the wound,        (home base,
-      the Tree)          revisitable)
+mountains ───────────────────────────────────────────────────────────── sea
+(Tree)                                                              (terminus)
+
+[1. Tail Terminus] ── [2. Tail Station] ── [3. ACADEMY] ── [4. Quarry]
+  alpine fairy forest   high foothills       temperate forest    rocky foothills
+  The Eternal Tree      ruins of old Corps   home base          first posting
+  No settlement         retirement village   academy town       industrial town
+  Visited late          Visited late                            BEAT 1
+
+  ── [5. Jungle] ── [6. Flagship] ── [7. Marsh] ── [8. Terminus]
+     warm valley      broad river valley  downstream marsh   coastal estuary
+     hot springs      industrial periphery eco-terrorist     port town
+     old village      Company town         hideout            older than the Company
+                      BEAT 2 (return)      ranger outpost     BEAT 3
 ```
+
+#### Station-by-station
+
+**1. Tail Terminus — The Eternal Tree.** Alpine old-growth fairy forest. No settlement. The player approaches on foot from station 2. Sacred-space framing. Fairy, Ice, Dragon (rare), Ghost. The only place in Ardenna where Xerneas's old influence is still visible in the ecology. **Visited late.** The finale happens here.
+
+**2. Tail Station — the old Corps town.** High foothills, the ruins of the old Corps headquarters, now a retirement village of ~30 residents. Half the buildings are abandoned. The cemetery is the biggest structure. Old rangers who remember the Withdrawal live here. Ghost, Normal, some Fairy. **Visited late.**
+
+**3. Academy — the player's home base.** Temperate river-valley forest. University-flavoured settlement: dorms, lecture halls, a quad, the Corps headquarters. Young, busy, optimistic. The Company's logo is present but in a sponsorly way (founder plaques, first-aid kit branding, a statue in the quad). The river is still relatively clean here — the pollution gradient starts further downstream. Grass, Bug, Normal, Flying, Water. **Pure act 1. No beats.** The academy is where the player bonds with the Corps, their mentor, their starter, and their fellow recruits without any dissonance. The warmth has to settle before any unease is introduced.
+
+**4. Quarry Station — the first posting.** Rocky foothills and a working Company quarry. An *industrial town* — but a prosperous one. Workers' housing is well-built, the facility is clean, the welfare officers are sincere, the Pokémon look healthy, everyone seems happy. This is the Company at its "responsible" best, and it is essential that the player's first reaction is approval. Rock, Ground, Fighting, some Steel. Cave access for early team-building. **BEAT 1 lands here.** The player, on their first posting, notices something about the quarry's operations that doesn't quite add up. Deniable. Atmospheric. Mission-adjacent, not flagged by any NPC. The player files it away.
+
+**5. Jungle Station — the old village.** Warm river valley with hot springs fed by upstream geothermal activity, dense humid forest. An *old village* — traditional architecture, predates the Company, older population, multi-generational families. The Company runs a "botanical research outpost" on the edge of town that is locally somewhat resented. Grass, Bug, Poison, some Water, some Psychic. **No beat.** This station does fair-play foreshadowing work instead: older villagers grumble about the Company in ways the player will file under "cranks" in act 1. At least one of those villagers should be factually correct about something the player can verify, and also *wrong about something else*, so the player files their Company critique under the unreliable bucket. They remember in act 3.
+
+**6. Company Flagship.** Broad river valley with an industrial periphery. The model facility — the wildlife sanctuary the academy took the recruits to visit on a field trip. A *Company town*: the newest, prettiest, most prosperous settlement on the spine. Manicured. Beautiful. *Wrong somehow.* The player's first reaction in act 1 should be vague unease they cannot articulate — this is the only station in the layout where act 1 is allowed to feel *slightly* off, because the player's unease is the foreshadowing. Fire (industrial), Electric, Normal, some Steel. **BEAT 2 lands here on a return visit** — after the player has traveled further outward and returns through the flagship, the pattern of what they saw at the quarry snaps into focus. Undeniable but still abstract.
+
+**7. Marsh Station — the ranger outpost.** Downstream marsh where the river broadens into a wetland maze. The settlement is a small *ranger outpost* — a few houses, an inn, a Pokémon Center, the ranger station itself. The kind of place that exists to serve the rangers. Water, Poison, Bug, Ghost (will-o'-wisp / fog register), some Dark, some Grass. **The eco-terrorist cell's hideout is NOT the settlement** — it is deep in the marsh beyond, in an old ranger outpost from before the Withdrawal that has been overgrown. The cell's older members know the marsh the way only ex-rangers can. The Company cannot sweep them out because the marsh is "of low ecological value" by their metrics — which is also a lie. The marsh absorbs much of the spine's pollution and is quietly abundant despite it. One of act 3's small recovered warmths lives here. **No beat.** This station is the eco-terrorist arc.
+
+**8. Terminus — the port town.** Coastal, polluted estuary where the river finally meets the sea. A *port town* that is **older than the Company** — fishing culture, maritime tradition, multi-generational families, salt-stained architecture. The ocean is louder than the people. The fishing has been declining for a generation and everyone knows why but nobody in authority says it. Water, Ice (cold ocean), Steel (port), Dark. **BEAT 3 lands here** — the unflinching scene, the cumulative wound of the entire spine arriving at the sea. The player has been traveling alongside the cause for the whole game; Beat 3 is the effect, and the game does not soften it.
+
+#### Type coverage
+
+The station layout is engineered to give the player a roughly complete team-building toolkit by mid-game:
+
+| By the time the player has reached | They have access to |
+|---|---|
+| End of the academy arc (station 3) | Grass, Bug, Normal, Flying, Water |
+| End of quarry posting (station 4) | + Rock, Ground, Fighting, Steel, cave access |
+| End of jungle station (station 5) | + Poison, Psychic |
+| End of flagship (station 6) | + Fire, Electric |
+| Marsh (station 7) | + Ghost, Dark |
+| Terminus (station 8) | + Ice |
+| Tail (stations 1–2, visited late) | + Fairy, Dragon, deeper Ghost |
+
+**Fire types in Ardenna are an *industrial* ecology, not a volcanic one.** There are no volcanoes along the spine. Fire types (Slugma, Magcargo, Numel, Houndour, Magmar, Torkoal etc.) colonise Company industrial facilities — smelters, foundries, kilns, heat exchangers — because the Company's extraction operations produce exactly the thermal environments these species thrive in. This does double thematic work:
+
+1. It gives Ardenna Fire types without forcing a volcanic biome into a geography that doesn't want one.
+2. It makes Fire-type encounter tables quietly reinforce the welfare-washing horror — the Company points at flourishing Fire populations as proof their facilities are "ecologically integrated," and they are not technically wrong, and the populations also have the worst long-term health metrics on the spine by a significant margin.
+
+**Fairy types in Ardenna are rare and geographically isolated** — they survive mainly in the tail's alpine fairy forest, where Xerneas's old influence is still present in the ecology. The player gets Fairy access late, right around the time they're learning to question the Company. This is mechanical foreshadowing: Fairy types are the inheritance Ardenna almost lost, and the player's first Fairy encounter should feel like meeting something that shouldn't still exist.
 
 ## The historical wound — the Withdrawal
 

@@ -14,13 +14,11 @@ Things explicitly undecided. Each should resolve into a [Decisions Log](decision
 
 ## Setting (Ardenna)
 
-- **Exact station count** — 7 vs 8 — and the identity of each station
-- **Biome layout** along the spine
-- **The Eternal Tree's exact location** — tail terminus, hidden, or in plain sight?
-- **Where the finale is staged** — terminus, or pulled back to the tail?
+- **Station names** — all 8 stations currently sit under descriptive placeholders; a dedicated naming pass is queued
 - **Which Pokémon species are the visible victims** at extraction sites (Machoke, Wailmer, Graveler are placeholders)
 - **Which species "left during the Withdrawal"** and are absent from the regional dex
 - **Tile/encounter art direction for the river degradation** — colour shift, foam, sparseness, what reads from the train
+- **Exact Fire-type roster** at the Company industrial sites — which species, which stations, and how the "flourishing but unhealthy" framing reads mechanically
 
 ## Mechanics
 
