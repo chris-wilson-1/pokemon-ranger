@@ -7,7 +7,7 @@ Things explicitly undecided. Each should resolve into a [Decisions Log](decision
 - **The unflinching scene** — what *specifically* is Beat 3 of the staggered reveal?
 - **The act-1 tutorial mission that becomes the act-3 "you did this" moment** — what specifically does the player do, and where?
 - **Mentor figure** — who, what's their arc, what's their compartmentalisation, do they survive? (Probably wants its own brainstorming session.)
-- **The Company's name and visual identity** (logo, colour, typography — must read as NGO, not corporate)
+- ~~The Company's name~~ — **Locked 2026-04-08: the Thorne Foundation.** Visual identity (logo, colour, typography) still open — must read as NGO, not corporate.
 - **The CEO** — name, appearance, voice
 - **The 2–3 ex-ranger cell members** — names, prior roles, current state, who breaks and who hardens
 - **Does the player character have a defined backstory or are they a blank slate?**
