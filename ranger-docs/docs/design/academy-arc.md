@@ -1,6 +1,6 @@
-# Academy Arc — Act 1 Spec
+# Academy Arc — Act 1 Home Base Spec
 
-The build-ready spec for the opening zone of the hack. This is the first playable content and establishes the tone, cast, and geography the rest of the game recontextualises. Drafted 2026-04-08.
+The build-ready spec for the opening zone of the hack (Linden, station 3). This is the first playable content and establishes the tone, cast, and geography the rest of the game recontextualises. **Act 1 extends beyond this arc** — it continues through the Quarry (station 4) until Beat 1 of the staggered reveal lands there. See [setting.md — Traversal order](setting.md#traversal-order). Drafted 2026-04-08; cleanup pass 2026-04-09.
 
 > See also: [Story](story.md), [Setting](setting.md), [Story craft commitments](story.md#craft-commitments).
 
@@ -10,7 +10,7 @@ Act 1 does one job: **earn the warmth.** Everything here has to feel genuinely g
 
 Every craft commitment in [story.md](story.md#craft-commitments) that can land here, does. Legitimacy saturation (Thorne Foundation logo on the first-aid kit, sponsoring the academy, the starter itself). Compartmentalised complicit NPCs (Cassian, Matty, Meren). Tobias Thorne superseding Cassian's speech (Beat 5). The player committing the crime (Beat 7 — the Poppy rescue). Fair-play foreshadowing sprinkled but never flagged.
 
-> **Naming note:** the villain corporation in [story.md](story.md#the-company) is **the Thorne Foundation** — a founder-named NGO-coded organisation in the Ford/Rockefeller/Gates register, fronted by current CEO **Tobias Thorne**. In act 1 the Foundation reads as infrastructure-level charity: soft greens, rounded logo, warmly present at every institution the player cares about. Elsewhere in the docs it is sometimes still referred to generically as "the Company" — that framing is retained where it serves, but the canonical name is the Thorne Foundation.
+> **Naming note:** the villain corporation is **the Thorne Foundation** — see [story.md](story.md#the-thorne-foundation). In act 1 the Foundation reads as infrastructure-level charity: soft greens, rounded logo, warmly present at every institution the player cares about. This spec uses "the Foundation" consistently for implementation clarity.
 
 ## Geography
 
@@ -20,8 +20,8 @@ Every craft commitment in [story.md](story.md#craft-commitments) that can land h
 
 - **Player's house** — **Mum** lives here, heals the team (no Pokémon Center; Mum is the healing point). Player's bedroom upstairs. Standard Pokémon-home shape. Mum is never given a first name — she is always and only "Mum" to the player and the script.
 - **Academy** — two floors. See interior below.
-- **Pip's house** — **Pip** (the friend) and **Poppy** (little sister) live here. Poppy is introduced in Beat 2 and is the emotional stake of Beat 6.
-- **Bran's house** — **Bran** (the Gary-coded rival) lives here with **Meren** (his parent), who works for the Company as the academy's Partner Program liaison. Bran is openly proud of Meren the way Gary is openly proud of anything — and the Company-pride reads as normal rival trash talk to the player.
+- **Pip's house** — **Pip** (the friend) and **Poppy** (little sister) live here. Poppy is introduced in Beat 2 and is the emotional stake of Beat 7 (the rescue mission).
+- **Bran's house** — **Bran** (the Gary-coded rival) lives here with **Meren** (his parent), who works for the Foundation as the academy's Partner Program liaison. Bran is openly proud of Meren the way Gary is openly proud of anything — and the Foundation-pride reads as normal rival trash talk to the player.
 
 **Outdoor features:**
 
@@ -41,25 +41,25 @@ Two floors. Significant building, as befits a Ranger Corps institution.
 **Ground floor — Operations:**
 
 - **Entrance lobby** — where the player walks in
-- **Quartermaster counter** — hands out the starter pack in Beat 2; Company logo visible on the first-aid kit and other gear
+- **Quartermaster counter** — hands out the starter pack in Beat 3; Foundation logo visible on the first-aid kit and other gear
 - **Mentor's open desk** — no private office; the mentor works in the main room. Warmer than a door. Mission briefings and the graduation send-off both happen here.
 - **Mission board** — posted assignments, room for fair-play foreshadowing postings (one "restoration in progress" notice that becomes an act-3 strip mine)
 - **Ambient ranger NPCs** — a handful of rangers going about their business, making the place feel alive
 
 **Upstairs — Classroom:**
 
-- **Single open classroom** — rows of desks, blackboard, teacher's space at the front. Pure classroom, no side rooms. This is where the graduation ceremony and the starter gift happen in Beat 3.
+- **Single open classroom** — rows of desks, blackboard, teacher's space at the front. Pure classroom, no side rooms. This is where the graduation ceremony and the starter gift happen in Beat 4.
 
 ## Cast
 
-Locked for act 1 (names locked 2026-04-08). All of these exist from the first screen the player walks the town.
+Current cast for act 1 (names decided 2026-04-08). All of these exist from the first screen the player walks the town.
 
 - **Mum** — player house. Heals the team throughout act 1. Classic Pokémon mum energy. No secrets. Never finds out. **Never given a first name** — she is always and only "Mum" in dialogue and script.
 - **Cassian** — the mentor. Academy ground floor. Earnest, heartfelt, genuinely loves rangering. Gives the graduation speech in Beat 3. Compartmentalised complicit — believes in the partnership framework because it was what saved Ardenna after the Withdrawal. Do not let Cassian lie on screen in act 1; omission only.
-- **Matthias "Matty"** — the quartermaster. Academy ground floor. Hands out the starter pack. Company-logo on the first-aid kit and other gear. Rugged, blue-collar warm, beloved by the recruits. The specific shape of Matty's compartmentalisation is TBD.
+- **Matthias "Matty"** — the quartermaster. Academy ground floor. Hands out the starter pack. Foundation logo on the first-aid kit and other gear. Rugged, blue-collar warm, beloved by the recruits. The specific shape of Matty's compartmentalisation is TBD.
 - **Pip** — the friend. Pip's house. The warm classmate. Uncomplicated, excited, present throughout. Likely candidate to stay warm through act 3 as one of the "never finds out" characters. The variance is what proves the warmth was always real.
 - **Poppy** — Pip's little sister. Pip's house. Introduced by name in Beat 2. Looks up to the player. The emotional stake of Beat 6. After act 1 she becomes a face the player loves in a town being hollowed out; the setting doesn't need to do anything else with her for her presence to be load-bearing in act 3.
-- **Bran** — the rival. Bran's house. Gary-coded: smug, secretly fond, hyper-competitive. Wraps Company legitimacy saturation through his pride in his parent Meren. Battles the player in Beat 6. Present throughout act 1.
+- **Bran** — the rival. Bran's house. Gary-coded: smug, secretly fond, hyper-competitive. Wraps Foundation legitimacy saturation through his pride in his parent Meren. Battles the player in Beat 6. Present throughout act 1.
 - **Meren** — Bran's parent AND the Thorne Foundation's Partner Program liaison at the academy. **One character doing double duty.** Meren lives in Bran's house with Bran and works at the academy as the Foundation's on-site liaison — the person who runs the Partner Program and personally hands the player their starter in Beat 4. This consolidation is load-bearing: *the Foundation's face at the most important day of the player's life is the warmly-loved parent of the player's rival.* Maximum legitimacy saturation in one character. Meren is sincere, polished, professionally warm, and genuinely believes in the Partner Program. Does not lie in act 1.
 - **Tobias Thorne** — CEO of the **Thorne Foundation**. Visits Linden on graduation day. Beat 5. First appearance; will recur at stations further down the spine. Warm, articulate, self-deprecating, slightly manipulative in texture — *not* a debater. He agrees with Cassian's graduation speech and then goes further, in a way that feels like the adult in the room gently making the same point better.
 - **Ambient ranger NPCs** — academy ground floor. Texture, not named cast.
@@ -92,7 +92,7 @@ The classroom. Desks, blackboard, the three recruits (player, Pip, Bran) at the 
 
 **Soft stylus seed (Cassian, one nostalgic line inside the speech).** Somewhere in the middle of the speech, Cassian briefly invokes the older idea of the Ranger Corps — language gesturing at "the old ways of working with partners," or "what it meant to be a ranger before my grandfather's generation," or similar. One sentence, handled with warmth and a touch of wistfulness, immediately returning to the present-day framing. In act 1 the player should hear it as *institutional humility* — the good-teacher move of acknowledging your forebears. In act 3 the player should be able to come back and re-read it as grief. **Cassian does not know what he is half-remembering.** He was taught his version of Ranger history by people who were already a generation removed from the tradition, and he is sincerely invoking something he only half-understands himself. This is compartmentalisation #5 executed precisely: no lie, an omission Cassian is not even aware he is making.
 
-Three Company-branded starter carriers on a table, presented by **Meren** (Bran's parent, the Company's Partner Program liaison — double duty is the point). Meren says something warm and sincere about the privilege of placing these starters with the new graduates. **Bran is visibly proud of Meren** — the rival's Company-pride delivery vehicle is right here in the ceremony. Player picks first (Rolycoly / Timburr / Rookidee). Pip picks. Bran picks.
+Three Foundation-branded starter carriers on a table, presented by **Meren** (Bran's parent, the Foundation's Partner Program liaison — double duty is the point). Meren says something warm and sincere about the privilege of placing these starters with the new graduates. **Bran is visibly proud of Meren** — the rival's Foundation-pride delivery vehicle is right here in the ceremony. Player picks first (Rolycoly / Timburr / Rookidee). Pip picks. Bran picks.
 
 Ceremony ends. Cassian tells the graduates to come downstairs — **Tobias Thorne** is here for them.
 
@@ -100,7 +100,7 @@ Ceremony ends. Cassian tells the graduates to come downstairs — **Tobias Thorn
 
 The new graduates head outside into the Linden town square. **Tobias Thorne — the CEO — is waiting.** He has come to the academy personally for the graduation, and all of Linden has gathered.
 
-Thorne takes the stage after Cassian's speech is still fresh in the player's head. He **agrees with every word of it** — and then gently, warmly, articulately **goes further.** He reframes Cassian's language about the bond into Company language about the Partner Program. He does it the way an adult builds on a child's correct answer, not the way an opponent counters an argument. Cassian is visibly moved. The player should walk away from this scene thinking *Tobias really gets it, maybe better than Cassian does.*
+Thorne takes the stage after Cassian's speech is still fresh in the player's head. He **agrees with every word of it** — and then gently, warmly, articulately **goes further.** He reframes Cassian's language about the bond into Foundation language about the Partner Program. He does it the way an adult builds on a child's correct answer, not the way an opponent counters an argument. Cassian is visibly moved. The player should walk away from this scene thinking *Tobias really gets it, maybe better than Cassian does.*
 
 This is craft commitment #3 ("The CEO out-argues the mentor on screen") with the refined texture that Thorne is not debating — he is **superseding warmly.** Slightly manipulative, not visibly so. The player should not flag him as suspicious.
 
@@ -124,11 +124,11 @@ The player finds Poppy. The "dangerous" wild Pokémon is present — it is the *
 
 Everyone celebrates. Pip is openly, tearfully grateful. Cassian is proud. Mum is relieved. **Meren and Bran are both there too, Meren warmly congratulating the player.** This is the emotional peak of act 1.
 
-**What the player learns in act 3:** the "dangerous" wild Pokémon was a **Company-facility escapee** — traumatised, displaced, injured, looking for somewhere safe. The player drove it back into the wilderness where the Company's recovery teams eventually caught it again. The player didn't rescue a child from a monster. The player returned a victim to its abuser while being celebrated as a hero. The betrayal is maximally personal — the sister is a face the player loves, the "monster" was a victim, the celebration was a lie the town didn't know it was telling.
+**What the player learns in act 3:** the "dangerous" wild Pokémon was a **Foundation-facility escapee** — traumatised, displaced, injured, looking for somewhere safe. The player drove it back into the wilderness where the Foundation's recovery teams eventually caught it again. The player didn't rescue a child from a monster. The player returned a victim to its abuser while being celebrated as a hero. The betrayal is maximally personal — the sister is a face the player loves, the "monster" was a victim, the celebration was a lie the town didn't know it was telling.
 
 **Nothing in Beat 7 foreshadows this.** The mini-boss is written straight. No unease, no hint, no "the Pokémon looks hurt" observation. In act 3 the player's memory of this beat does the work. The scene earns its later weight by being unambiguously heroic on first play.
 
-**The mini-boss species is Houndour** (locked 2026-04-08). Level ~10–12, so the fight is real but beatable for a player running a level 8–9 base-form starter. Houndour is a pack-hunting, guard/security Pokémon in canon, which lets the act 3 reveal land without retrofitting: the Company uses Houndour packs as patrol/security at their extraction sites, and this one got separated from its pack and attacked a child it mistook for a handler.
+**The mini-boss species is Houndour** (decided 2026-04-08). Level ~10–12, so the fight is real but beatable for a player running a level 8–9 base-form starter. Houndour is a pack-hunting, guard/security Pokémon in canon, which lets the act 3 reveal land without retrofitting: the Foundation uses Houndour packs as patrol/security at their extraction sites, and this one got separated from its pack and attacked a child it mistook for a handler.
 
 **Why Houndour specifically:**
 
@@ -138,16 +138,16 @@ Everyone celebrates. Pip is openly, tearfully grateful. Cassian is proud. Mum is
     - **Rolycoly (Rock):** Rock 2× on Fire (SE). Fire 0.5× on Rock (resisted). Rolycoly dominates.
     - **Timburr (Fighting):** Fighting 2× on Dark (SE). Dark 0.5× on Fighting (resisted). Timburr dominates.
     - **Rookidee (Flying):** Flying and Fire/Dark are mutually neutral. Even fight, winnable on stats and Flying STAB.
-- **Canonically industrial-adjacent without retrofitting.** Houndour are pack animals used in canon as trackers, guards, and hunters. "Escaped Company security Pokémon" writes itself.
+- **Canonically industrial-adjacent without retrofitting.** Houndour are pack animals used in canon as trackers, guards, and hunters. "Escaped Foundation security Pokémon" writes itself.
 - **Dark typing reads as "dangerous wild creature" in-world**, not as thematic darkness. The mini-boss is framed as the scary thing in the woods, so Dark typing fits the narrative framing of the scene rather than undercutting act 1's warmth.
 
-**The background horror that grows on replay:** Houndour are *pack hunters*. The act 3 reveal isn't just "this one was a victim" — it's "the Company uses whole packs of these as site security, and this one got separated from its pack, and the pack is still out there, working." The sister-rescue scene grows a background horror the attentive act 3 player can't unsee.
+**The background horror that grows on replay:** Houndour are *pack hunters*. The act 3 reveal isn't just "this one was a victim" — it's "the Foundation uses whole packs of these as site security, and this one got separated from its pack, and the pack is still out there, working." The sister-rescue scene grows a background horror the attentive act 3 player can't unsee.
 
 ### Beat 8 — 1–2 side missions (flexible)
 
 After the sister rescue, 1–2 small side missions from the mission board to build the rank-up loop and tune act 1's length. These are **genuinely wholesome** with the lightest possible fair-play foreshadowing:
 
-- **Biologist escort** — accompany a Company biologist on a sample-gathering trip in the academy station's wilderness. The biologist is perfectly friendly and uses welfare-program vocabulary ("partnership candidates" instead of "wild Pokémon"). The player will not notice the grammar in act 1. No beat lands.
+- **Biologist escort** — accompany a Foundation biologist on a sample-gathering trip in the academy station's wilderness. The biologist is perfectly friendly and uses welfare-program vocabulary ("partnership candidates" instead of "wild Pokémon"). The player will not notice the grammar in act 1. No beat lands.
 - Additional missions as length requires. Do **not** add anything that carries unease — if act 1 needs to be longer, make the existing missions longer or add another warm beat.
 
 Cuttable if act 1 is running long. Do not let side missions dilute Beat 7's emotional centrality.
@@ -166,7 +166,7 @@ End of act 1's home phase. The player arrives at the Quarry. Act 1 continues at 
 
 ## Starter trio
 
-Locked 2026-04-08. The academy's Partner Program offers three starters at the Beat 4 graduation ceremony, forming a **Rock / Fighting / Flying** triangle — a deliberately non-traditional choice that signals "ranger partner, not adventurer starter."
+Decided 2026-04-08. The academy's Partner Program offers three starters at the Beat 4 graduation ceremony, forming a **Rock / Fighting / Flying** triangle — a deliberately non-traditional choice that signals "ranger partner, not adventurer starter."
 
 | Slot | Line | Final stage typing |
 |---|---|---|
@@ -188,9 +188,9 @@ Result: Coalossal > Corviknight > Conkeldurr = Coalossal. **Rolycoly becomes qui
 
 ### Why this is perfect for the story
 
-The rock/fighting/flying triangle was chosen for tone (ranger partner aesthetic, working-class, not adventurer-coded) — but **Rolycoly's quiet endgame dominance is not a balance mistake.** Rolycoly is the most industrial, most Company-adjacent of the three — a coal mineral that evolves into a walking furnace. Its identity directly mirrors the Company's Fire-type industrial ecology established in [setting.md](setting.md#type-coverage).
+The rock/fighting/flying triangle was chosen for tone (ranger partner aesthetic, working-class, not adventurer-coded) — but **Rolycoly's quiet endgame dominance is not a balance mistake.** Rolycoly is the most industrial, most Foundation-adjacent of the three — a coal mineral that evolves into a walking furnace. Its identity directly mirrors the Foundation's Fire-type industrial ecology established in [setting.md](setting.md#type-coverage).
 
-If the player picks Rolycoly because it's "the cool one" or "the strongest one," they have picked the starter whose entire identity rhymes with the Company's manufactured ecology. The CEO's finale argument ([story.md craft commitment #10](story.md#craft-commitments)) lands *hardest* on a Coalossal player: *you love this coal-powered thing, it loves you, and everything it represents is the thing we are trying to dismantle — and mechanically, it was the correct choice.*
+If the player picks Rolycoly because it's "the cool one" or "the strongest one," they have picked the starter whose entire identity rhymes with the Foundation's manufactured ecology. The CEO's finale argument ([story.md craft commitment #10](story.md#craft-commitments)) lands *hardest* on a Coalossal player: *you love this coal-powered thing, it loves you, and everything it represents is the thing we are trying to dismantle — and mechanically, it was the correct choice.*
 
 This is not signposted in act 1. The player picks whichever they like the look of, or whichever feels strongest after a few battles. The resonance only exists in retrospect. Fair-play foreshadowing hidden in the *type chart*.
 
@@ -214,28 +214,27 @@ Cross-referencing [story.md's craft commitments](story.md#craft-commitments):
 
 | # | Commitment | Where it lands |
 |---|---|---|
-| 1 | Legitimacy saturation | Beat 3 (first-aid kit logo), Beat 4 (Meren personally hands out starters on Company-branded carriers), ambient (academy is Company-built, Bran's pride in Meren) |
+| 1 | Legitimacy saturation | Beat 3 (first-aid kit logo), Beat 4 (Meren personally hands out starters on Foundation-branded carriers), ambient (academy is Foundation-built, Bran's pride in Meren) |
 | 2 | Discredit the truth-tellers early | **Not in the academy arc.** Lives at the Jungle station per [decisions.md](../reference/decisions.md). |
 | 3 | The CEO out-argues the mentor on screen | Beat 5 — refined as warm supersession, not debate |
 | 4 | Coherent ideology, sincerely held | Beat 4 (mentor's speech) + Beat 5 (CEO's speech). Both believe it. |
-| 5 | Compartmentalisation, not hypocrisy | Cassian, Matty, Meren — act 1 establishes their warmth without lies |
-| 6 | The player commits the crime | **Beat 7 — the sister rescue.** Primary vehicle. |
-| 7 | Staggered three-beat reveal | Not in act 1. Beat 1 of the reveal lands at the Quarry (station 4). |
-| 8 | The Company never reveals itself | Global — no Company character is suspicious in the academy arc |
-| 9 | Fair-play foreshadowing | First-aid kit logo, rival's Company-proud parent, biologist's welfare vocabulary, mission board postings, Company-built academy, polluted river visible from Beat 10 train window |
-| 10 | The starter is the CEO's strongest argument | Beat 4 — the starter is presented by the Company liaison as a gift, on a Company-branded carrier, with sincere warmth. The seed is planted here and the harvest is the finale. |
+| 5 | Compartmentalisation, not hypocrisy | Cassian, Matty, Meren — act 1 establishes their warmth without lies. Matty's Beat 3 wistful line and Cassian's Beat 4 nostalgic speech line are the two soft **stylus seeds** — omission only, neither knows what they're half-remembering. |
+| 6 | The player commits the crime | **Beat 7 — the sister rescue.** Primary vehicle. Also diffusely: every time the player throws a ball they are using Foundation technology (see [story.md — The Ranger Corps](story.md#the-ranger-corps)). |
+| 7 | Staggered three-beat reveal | Not in the academy arc. Beat 1 lands at the Quarry (station 4). |
+| 8 | The Foundation never reveals itself | Global — no Foundation character is suspicious in the academy arc |
+| 9 | Fair-play foreshadowing | First-aid kit logo, rival's Foundation-proud parent, biologist's welfare vocabulary ("partnership candidates"), mission board postings (one "restoration in progress" notice), Foundation-built academy, Matty's wistful line, Cassian's nostalgic line, polluted river visible from Beat 10 train window |
+| 10 | The starter is the CEO's strongest argument | Beat 4 — the starter is presented by the Foundation liaison as a gift, on a Foundation-branded carrier, with sincere warmth. The seed is planted here and the harvest is the finale. |
 
 ## Open questions specific to the academy arc
 
-These block implementation and should be resolved before build starts:
+These want resolving during implementation:
 
-- ~~The three starter species on offer at Beat 4.~~ **Locked 2026-04-08: Rolycoly / Timburr / Rookidee** (Rock / Fighting / Flying triangle; see "Starter trio" below).
-- ~~Specific cast names.~~ **Locked 2026-04-08:** Mum (unnamed), Cassian (mentor), Matthias "Matty" (quartermaster), Pip (friend), Poppy (Pip's little sister), Bran (rival), Meren (Bran's parent AND Company liaison — merged into one character), Tobias Thorne (CEO).
-- ~~The town's name.~~ **Locked 2026-04-08: Linden.**
-- **Starter-pack contents** beyond the first-aid kit.
-- **Mission board postings** — the specific fair-play-foreshadowing notices that should be readable on the board in act 1 and remembered in act 3.
+- **Starter-pack contents** beyond the first-aid kit — what else is in the pack, what has Foundation branding, what doesn't.
+- **Mission board postings** — the specific fair-play-foreshadowing notices readable on the board in act 1 (one "restoration in progress" notice that becomes an act-3 strip mine; others TBD).
 - **Specific dialogue beats for the CEO's Beat 5 speech** — this is load-bearing prose and wants its own writing pass.
+- **Specific dialogue for Matty's Beat 3 wistful line and Cassian's Beat 4 nostalgic line** — both are soft stylus seeds and must land as flavour on first play, grief on replay.
 - **Map shapes:** the town outdoor map, the academy interior (both floors), the academy station's wilderness route where Beat 7 takes place. Porymap work, not a design question, but blocks implementation.
+- **Bran's rivalry battles** — Beat 6 is the first; does the player fight Bran again before leaving for the Quarry? Bran's later arc (post-Meren fight at Flagship) is deferred to its own session.
 
 ## Implementation notes
 
