@@ -12,20 +12,23 @@ A Ranger recruit graduates into a Corps that has been quietly captured from with
 
 ```
 Act 1 ── unguarded warmth ─────────────────────────────┐
-  academy (Linden, station 3) → first posting (Quarry) │
+  academy (Linden) → Quarry (first posting)            │
                                                        │
-                                          Beat 1: a mission feels off (deniable)
+                            Beat 1: Quarry manifest — a mission feels off (deniable)
                                                        │
 Act 2 ── the staggered reveal ─────────────────────────┤
-  missions across the spine, warmth + unease           │
+  detour → Jungle → Flagship → Terminus                │
                                                        │
-                                          Beat 2: a pattern (undeniable, abstract)
-                                          Beat 3: the unflinching scene (the turn)
+                            Beat 2: Flagship audit — the metrics are the hiding place
+                            Beat 3: Terminus warehouse — the unflinching scene
                                                        │
-Act 3 ── desaturated, grieving, careful ───────────────▶
+Act 3 ── the walk back + the finale ───────────────────▶
+  Terminus → Marsh → Flagship (Meren) → Linden         │
+  (Cassian: Tree plan, rank 7)                         │
+  walk south → Retirement Village → Eternal Tree       │
 ```
 
-Act 1 is not the academy alone — it extends through the player's first outward posting at the Quarry (station 4) and ends when the first deniable beat of the reveal lands there. Act 2 is the rest of the tour of duty: warmth continuing on the surface, the three-beat reveal layered underneath. The turn is not a single scene but the *whole* staggered reveal — Beat 3 is the single unflinching moment at the bottom of it.
+Act 1 is not the academy alone — it extends through the player's first outward posting at the Quarry (station 4) and ends when the first deniable beat of the reveal lands there. Act 2 is the rest of the outbound tour: the veteran detour, the Jungle, the Flagship, the Terminus, with the three-beat reveal layered underneath. Beat 3 is the single unflinching moment. Act 3 is the walk back (combat) + the Linden endgame (revelation) + the Tree (finale). See [setting.md — Traversal order](setting.md#traversal-order) for the full station-by-station flow.
 
 The opening earns the contrast. Act 3 is not grimdark — it is a *desaturated* version of the same world. Sunlight still hits the ranger base, just at a different angle. The tutorial music doesn't play anymore.
 
@@ -178,27 +181,29 @@ The player's starter is a Company-gifted partner. In the finale, the CEO points 
 
 The game's climax has a fixed structure with two weights on the same ending. Full shape:
 
-**1. The pilgrimage south.** Post Beat 3 at Terminus, the player walks back through the desaturated spine to Linden and, for the first time in the game, south through the previously-locked gate into the abandoned tail (stations 1–2, retirement village, Eternal Tree). The player has been able to see this path since the Beat 1 morning walk; they have never been allowed to take it. Walking it is act 3's geography payoff.
+**1. The walk back.** Post Beat 3 at Terminus, the player walks northwest through the Marsh to the Flagship, fighting Foundation enforcers the entire way. The ex-ranger cell ghost-helps through the Marsh (enemies found defeated, campfires with supplies, paths cleared). The Meren fight at the Flagship caps the walk-back. Meren, defeated, tells the player Thorne has gone to Linden — *"home, to finish what his family started."* See [setting.md — The walk back](setting.md#the-walk-back--terminus-to-flagship) for pacing and combat details.
 
-**2. At the Tree.** Thorne is already there. Alone or with minimal security, in character as the man who will always show up personally to make the better argument. He has come because the player is the first person in two generations in a position to reawaken knowledge the Foundation was built to obscure. The dormant Tree is environmental witness.
+**2. The Linden endgame.** The player takes the train home. Thorne has visited the player's family — warmly, sincerely, institutionally — and gone south. Mum is quiet. Poppy is excited about "the Ranger man who knew my name." Cassian is at the academy, waiting. His revelation: the stylus tradition in full, the Foundation's Tree plan (the partnership program's logical endpoint — channeling Xerneas's dormant influence to make every Pokémon in Ardenna a Foundation partner without consent), and rank 7 (Captain → Commander, skipping Elite, the Corps's last institutional act). The player walks south from Linden, through the retirement village one last time, into the alpine fairy forest. See [setting.md — The Linden endgame](setting.md#stations).
 
-**3. The prompt.** The player is offered the chance to release their team. Any subset, including/excluding the starter, including none at all. Released Pokémon walk into the tail wilderness — the one biome the Foundation never extended into. The Tree does not respond. Xerneas does not wake. The player gets no confirmation the release meant anything.
+**3. At the Tree.** Thorne is already there, overseeing the activation of the Foundation's Tree infrastructure. He is not waiting for the player — the player's arrival is an interruption to work he considers more important than any single recruit's crisis of conscience. The dormant Tree is environmental witness. The Foundation's infrastructure hums.
 
-**4. The confrontation.** Thorne makes his case in front of the Tree, with whatever team the player kept on their belt. His speech lands — he is still sincere, still articulate, still the better speaker. The player has no rhetorical answer. (Inherited from craft commitment #4.)
+**4. The prompt.** The player is offered the chance to release their team. Any subset, including/excluding the starter, including none at all. Released Pokémon walk into the tail wilderness — the one biome the Foundation never extended into. The Tree does not respond. Xerneas does not wake. The player gets no confirmation the release meant anything.
 
-**5. The battle, two weights.**
+**5. The confrontation.** Thorne makes his case while continuing his work. His speech lands — he is still sincere, still articulate, still the better speaker. The player has no rhetorical answer. (Inherited from craft commitment #4.)
 
-- **Released path.** Thorne's tone shifts in real time as released Pokémon walk back into the fight one at a time. First condescension ("a dramatic gesture; the work continues"). Then unease as the pattern becomes legible. Then, when the **starter** arrives on Thorne's "does it love you?" line — the specific rhetorical trap from craft commitment #10 — his composure breaks. He is watching the old Ranger gesture work, at the Tree, in front of him, for the first time in two generations. His grandfather's post-Withdrawal argument is being refuted as professional fact by a recruit. He loses not on principles but on evidence his framework cannot categorise. The battle is the hardest fight in the game. The player wins with whatever they kept plus whatever came back.
+**6. The battle, two weights.**
 
-- **Kept path.** Thorne warms approvingly to a player who agreed with him. *"Good — don't let anyone tell you to abandon the ones who chose you. That's the whole point."* He means it. In his framework, the player just proved him right. The battle is still the hardest fight in the game — Thorne is not softer on a player who agreed with him. Post-battle, Thorne concedes the match but not the framework and walks away composed. Nothing in the world has changed. The game trusts the player to feel that.
+- **Released path.** Thorne's tone shifts in real time as released Pokémon walk back into the fight one at a time. First condescension ("a dramatic gesture; the work continues"). Then unease as the pattern becomes legible — not just the Pokémon returning, but the **Foundation's Tree infrastructure faltering** as the old gesture's presence disrupts the channeling. The Tree stirs — not wakes, stirs — and the metric Thorne's machine is built on *moves*. Then, when the **starter** arrives on Thorne's "does it love you?" line — the specific rhetorical trap from craft commitment #10 — his composure breaks completely. He is watching the old Ranger gesture work, at the Tree, while his infrastructure fails around him, for the first time in two generations. His grandfather's post-Withdrawal argument is being refuted as professional fact by a recruit. He loses not on principles but on evidence his framework cannot categorise. The battle is the hardest fight in the game. The player wins with whatever they kept plus whatever came back.
+
+- **Kept path.** Thorne warms approvingly to a player who agreed with him. *"Good — don't let anyone tell you to abandon the ones who chose you. That's the whole point."* He means it. In his framework, the player just proved him right. The Foundation's infrastructure continues humming — nothing disrupts it. The battle is still the hardest fight in the game — Thorne is not softer on a player who agreed with him. Post-battle, Thorne concedes the match but not the framework and walks away composed. The infrastructure is intact. The partnership program will scale to its endpoint. Nothing in the world has changed. The game trusts the player to feel that.
 
 Neither weight is "the good ending" in a branching-moralist sense. Both are coherent readings of the specific journey the player took. One difficulty / one ending pillar holds: same final scene, same boss, same battle, same credits; what varies is the conversation and whether the framework was ever challenged.
 
-**6. The starter's choice (released path).** After the battle, the released Pokémon leave again. The release was permanent; the return was a visit. The starter does not walk back into the player's ball — it stays at the Tree, by its own choice. The player's verb was "bring it here." The starter's verb was "stay." This is the load-bearing moment that keeps the scene honest: the bond proved itself *precisely by* not being a leash.
+**7. The starter's choice (released path).** After the battle, the released Pokémon leave again. The release was permanent; the return was a visit. The starter does not walk back into the player's ball — it stays at the Tree, by its own choice. The player's verb was "bring it here." The starter's verb was "stay." This is the load-bearing moment that keeps the scene honest: the bond proved itself *precisely by* not being a leash. The Tree subsides back into dormancy. The Foundation's infrastructure is broken at this site but the Foundation survives.
 
-**7. Credits.** Quiet in both weights. On the released path, the *open* register (grief plus opening). On the kept path, the *closed* register (the Foundation continues, the player goes home with their team, nothing has changed).
+**8. Credits.** Quiet in both weights. On the released path, the *open* register (grief plus opening). On the kept path, the *closed* register (the Foundation continues, the player goes home with their team, nothing has changed).
 
-**8. Post-credits coda (released path only).** One scene, not a montage. Linden, some time later. Same camera angle as the Beat 1 walk-out-of-the-house shot, so attentive players feel the rhyme. A young ranger (not the player, someone new) at the edge of the clearing near the academy, performing the old gesture nervously for the first time. A wild Pokémon from the Linden wilderness lends aid and walks back into the trees. **Cassian** is watching and teaching — he has broken and relearned and is the one to carry the knowledge forward. No Foundation logo anywhere in the frame; the logo has been on everything for 30 hours and its absence is the cue. The player's released starter may be briefly visible somewhere in the Tree-zone or tail wilderness, free and fine. The Tree remains dormant; Xerneas does not wake on screen. The distance has narrowed. The question remains open.
+**9. Post-credits coda (released path only).** One scene, not a montage. Linden, some time later. Same camera angle as the Beat 1 walk-out-of-the-house shot, so attentive players feel the rhyme. A young ranger (not the player, someone new) at the edge of the clearing near the academy, performing the old gesture nervously for the first time. A wild Pokémon from the Linden wilderness lends aid and walks back into the trees. **Cassian** is watching and teaching — he has broken and relearned and is the one to carry the knowledge forward. No Foundation logo anywhere in the frame; the logo has been on everything for 30 hours and its absence is the cue. The player's released starter may be briefly visible somewhere in the Tree-zone or tail wilderness, free and fine. The Tree remains dormant; Xerneas does not wake on screen. The distance has narrowed. The question remains open.
 
 The kept path has no coda. The credits end at Thorne's composed farewell. This is not punishment — the game does not owe the kept-path player an epilogue about a tradition they chose not to re-enter. The closed ending stays closed.
 

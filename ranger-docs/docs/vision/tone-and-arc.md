@@ -29,6 +29,8 @@ The turn is not a single scene. It is a **staggered three-beat reveal** spread a
 
 After Beat 3 the tone shifts. Not edgy-for-the-sake-of-it — warmth remains, in places, and those small recovered warmths hit harder against the muted backdrop than they would against unbroken brightness. The stakes are real, the institution the player joined is compromised, and the player's own early actions turn out to have been part of the harm.
 
+**Act 3 is not a silent pilgrimage — it is a forced march home through captured territory.** The player walks back from Terminus through the Marsh to the Flagship, fighting Foundation enforcers the entire way. The combat arc and the grief arc are the same arc. The ex-ranger cell ghost-helps through the Marsh. Meren (Bran's parent, the Foundation's academy liaison from act 1) is the penultimate major battle at the Flagship. After, the player takes the train home to Linden, where Cassian delivers the full revelation and the final rank. Then the walk south to the Eternal Tree — the quieter final stretch that earns the finale.
+
 ## What this asks of the design
 
 - **Early game must be genuinely good** on its own merits. If act 1 reads as filler before "the real game," the contrast fails. See the [academy arc spec](../design/academy-arc.md) for how this is executed beat-by-beat.
