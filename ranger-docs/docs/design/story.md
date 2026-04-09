@@ -46,7 +46,7 @@ This is the deepest layer of the capture, and it is invisible to anyone inside t
 
 (No mechanical change — the player still throws balls, catches Pokémon, carries a team. [Pillar #3](../vision/pillars.md) holds: no stylus minigame. Only the in-lore meaning of the mechanic changes, and only late enough that the revelation restructures replay.)
 
-### The Company
+### The Thorne Foundation
 
 A beloved, infrastructure-level corporate presence. The villain — but not visibly, not in act 1, and not on its own terms ever.
 
@@ -136,9 +136,9 @@ The hunt for the eco-terrorist cell in act 1 is the *second* instance of this pa
 
 The turn is not one scene. It is three:
 
-1. **Beat 1:** one mission feels off. Deniable. Atmosphere only.
-2. **Beat 2:** a pattern across missions. Undeniable but abstract. Probably a document, or an inventory discrepancy, or a return visit to a familiar map.
-3. **Beat 3 — the unflinching scene:** a face the player loves is in a photograph they shouldn't be in, and the scene that follows is the *one moment* the game does not soften. See "Tone control" below.
+1. **Beat 1 — Quarry, deniable.** The player's last rank mission at the Quarry is a routine inventory check at a processing shed. One number doesn't add up: "partnership candidates" outbound exceeds inbound by a small margin, across several weeks. The welfare officer explains it as natural attrition. The explanation is reasonable. No NPC flags unease. The player files it. See [setting.md — Station 4](setting.md#station-by-station).
+2. **Beat 2 — Flagship, undeniable but abstract.** The rank-up mission at the Flagship is a facility compliance audit. Everything passes — the metrics are real, the audit is honest, the partnership Pokémon look healthy. The player realises **the metrics themselves are the hiding place**: a Pokémon is visibly tired in a way the checklist has no column for. The Quarry manifest snaps into conceptual focus — not a discrepancy but a thing the Foundation's framework was built to never measure. See [setting.md — Station 6](setting.md#station-by-station).
+3. **Beat 3 — Terminus, the unflinching scene.** Immediately after rank 5. Routine dock work. The player sees the cumulative wound of the entire spine arriving at the sea. The specific scene needs its own dedicated design session — leading candidates: the Beat-7 Houndour pack being processed as decommissioned assets; a face from Linden on a manifest; a silent walk through the warehouse endpoint. The game does not soften it. See "Tone control" below.
 
 Each beat lets the player feel smart for catching it before the next.
 
@@ -185,7 +185,7 @@ The game's climax has a fixed structure with two weights on the same ending. Ful
 
 **2. The Linden endgame.** The player takes the train home. Thorne has visited the player's family — warmly, sincerely, institutionally — and gone south. Mum is quiet. Poppy is excited about "the Ranger man who knew my name." Cassian is at the academy, waiting. His revelation: the stylus tradition in full, the Foundation's Tree plan (the partnership program's logical endpoint — channeling Xerneas's dormant influence to make every Pokémon in Ardenna a Foundation partner without consent), and rank 7 (Captain → Commander, skipping Elite, the Corps's last institutional act). The player walks south from Linden, through the retirement village one last time, into the alpine fairy forest. See [setting.md — The Linden endgame](setting.md#stations).
 
-**3. At the Tree.** Thorne is already there, overseeing the activation of the Foundation's Tree infrastructure. He is not waiting for the player — the player's arrival is an interruption to work he considers more important than any single recruit's crisis of conscience. The dormant Tree is environmental witness. The Foundation's infrastructure hums.
+**3. At the Tree.** Thorne is already there, overseeing the activation of the Foundation's Tree infrastructure — the long-term plan to channel Xerneas's dormant bond-influence through Foundation systems, making every Pokémon in Ardenna a Foundation-aligned partner without consent. The partnership program's logical endpoint, not a separate crime. (See [setting.md — The Foundation's Tree plan](setting.md#the-foundations-tree-plan) for full detail.) He is not waiting for the player — the player's arrival is an interruption to work he considers more important than any single recruit's crisis of conscience. The dormant Tree is environmental witness. The Foundation's infrastructure hums.
 
 **4. The prompt.** The player is offered the chance to release their team. Any subset, including/excluding the starter, including none at all. Released Pokémon walk into the tail wilderness — the one biome the Foundation never extended into. The Tree does not respond. Xerneas does not wake. The player gets no confirmation the release meant anything.
 

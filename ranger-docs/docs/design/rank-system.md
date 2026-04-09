@@ -7,13 +7,15 @@ Replaces the 8-badge structure. Same underlying progression gates, reframed as R
 | # | Rank | Notes |
 |---|------|-------|
 | 0 | Cadet | Starting state |
-| 1 | Ranger | First promotion — end of training arc |
-| 2 | Field Ranger | First "real" deployment authority |
-| 3 | Senior Ranger | |
-| 4 | Ranger Specialist | |
-| 5 | Ranger Captain | |
-| 6 | Elite Ranger | |
-| 7 | Ranger Commander | Endgame |
+| 1 | Ranger | First promotion — end of training arc (Academy graduation) |
+| 2 | Field Ranger | Quarry station commander battle |
+| 3 | Senior Ranger | Jungle station commander battle |
+| 4 | Ranger Specialist | Flagship station commander battle |
+| 5 | Ranger Captain | Terminus station commander battle |
+| 6 | ~~Elite Ranger~~ | **Deliberately skipped.** Never awarded. |
+| 7 | Ranger Commander | Cassian promotes the player at Linden, skipping rank 6 |
+
+**Rank 6 skip:** The player is promoted directly from rank 5 (Captain) to rank 7 (Commander) by Cassian at Linden as the Corps's last institutional act. The skip is diegetic — the Corps's promotion structure has broken and Cassian is making a two-step jump he has no authority to make. *"There's nothing between Captain and Commander that matters any more. Take both."* See [setting.md — Rank mapping](setting.md#rank-mapping) and [story.md — The finale](story.md#the-finale).
 
 Names are placeholder — likely to change once the setting and Ranger Corps fiction are nailed down.
 
