@@ -1,0 +1,60 @@
+mapscripts LindenTown_PipsHouse_1F_MapScripts {
+    MAP_SCRIPT_ON_FRAME_TABLE [
+        VAR_LINDEN_INTRO_STATE, 2: LindenTown_PipsHouse_1F_InitialScene
+    ]
+}
+
+# Initial Poppy Scene
+
+script LindenTown_PipsHouse_1F_InitialScene {
+    lockall
+    applymovement(2, LindenTown_PipsHouse_1F_PoppyWalkToPlayer)
+    waitmovement(0)
+    msgbox(format("Poppy: Hey, {PLAYER}!\nPip's waiting for you upstairs!"), MSGBOX_DEFAULT)
+    msgbox(format("Poppy: Good luck on your graduation!\nOne day, I'm gonna be a great ranger like you and Pip!"), MSGBOX_DEFAULT)
+    closemessage
+    applymovement(2, LindenTown_PipsHouse_1F_PoppyWalkAway)
+    waitmovement(0)
+    setvar(VAR_LINDEN_INTRO_STATE, 3)
+    releaseall
+}
+
+movement LindenTown_PipsHouse_1F_PoppyWalkToPlayer {
+    walk_fast_right
+    walk_fast_right
+    walk_fast_down
+    walk_fast_right
+    walk_fast_down
+    walk_fast_down
+}
+
+movement LindenTown_PipsHouse_1F_PoppyWalkAway {
+    walk_fast_up
+    walk_fast_up
+    walk_fast_up
+    walk_fast_left
+    walk_fast_left
+    walk_fast_left
+}
+
+# Poppy Talk
+
+script LindenTown_PipsHouse_1F_PoppyTalk {
+    lock
+    faceplayer
+    msgbox(format("Poppy: {PLAYER}! Is it really graduation day?"), MSGBOX_DEFAULT)
+    msgbox(format("Poppy: Pip says they're gonna be the best ranger ever.\pI'm gonna be one too when I'm big!\nJust like you and Pip!"), MSGBOX_DEFAULT)
+    closemessage
+    release
+}
+
+# Pips Mum Talk
+
+script LindenTown_PipsHouse_1F_MumTalk {
+    lock
+    faceplayer
+    msgbox(format("Pip's Mum: {PLAYER}, good morning!\nBig day for you two, isn't it?"), MSGBOX_DEFAULT)
+    msgbox(format("Pip's Mum: Pip was up half the night fretting over it.\pYou'll look after each other out there, won't you?"), MSGBOX_DEFAULT)
+    closemessage
+    release
+}

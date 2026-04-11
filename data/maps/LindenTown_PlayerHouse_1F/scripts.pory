@@ -31,6 +31,7 @@ script LindenTown_PlayerHouse_1F_MumTalkScript {
     release
 }
 
+
 script LindenTown_PlayerHouse_1F_InitialTransition {
     if (var(VAR_LINDEN_INTRO_STATE) == 1) {
         setobjectxyperm(1, 1, 3)
@@ -41,6 +42,8 @@ script LindenTown_PlayerHouse_1F_InitialTransition {
 script LindenTown_PlayerHouse_1F_InitialScene {
     lockall
     applymovement(1, LindenTown_PlayerHouse_1F_MumWalkToPlayer)
+    waitmovement(0)
+    applymovement(OBJ_EVENT_ID_PLAYER, LindenTown_PlayerHouse_1F_PlayerFaceLeft)
     waitmovement(0)
     msgbox(format("Mum: There you are!\nBreakfast is on the table."), MSGBOX_DEFAULT)
     msgbox(format("Mum: Pip's been waiting for you.\nYou'd better head over to their house!"), MSGBOX_DEFAULT)
@@ -58,6 +61,10 @@ movement LindenTown_PlayerHouse_1F_MumWalkToPlayer {
     walk_right
     walk_right
     walk_right
+}
+
+movement LindenTown_PlayerHouse_1F_PlayerFaceLeft {
+    walk_in_place_left
 }
 
 movement LindenTown_PlayerHouse_1F_MumWalktoTable {

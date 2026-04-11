@@ -1,0 +1,52 @@
+mapscripts LindenTown_PipsHouse_2F_MapScripts {
+    MAP_SCRIPT_ON_FRAME_TABLE [
+        VAR_LINDEN_INTRO_STATE, 3: LindenTown_PipsHouse_2F_IntroTalk
+    ]
+}
+
+# Pip Intro Talk
+
+script LindenTown_PipsHouse_2F_IntroTalk {
+    lockall
+    delay(40)
+    applymovement(1, LindenTown_PipsHouse_2F_PipWalkToPlayer)
+    waitmovement(0)
+    applymovement(OBJ_EVENT_ID_PLAYER, LindenTown_PipsHouse_2F_PlayerFaceLeft)
+    waitmovement(0)
+    msgbox(format("Pip: Oh... {PLAYER}. You made it."), MSGBOX_DEFAULT)
+    msgbox(format("Pip: I've been up since… I don't know when."), MSGBOX_DEFAULT)
+    msgbox(format("Pip: Kept checking my bag. I think I've checked it three times."), MSGBOX_DEFAULT)
+    msgbox(format("Pip: I'm really glad it's you and me today.\pI don't think I could do this on my own."), MSGBOX_DEFAULT)
+    msgbox(format("Pip: …I just have to grab some things from downstairs.\pI'll see you at the academy."), MSGBOX_DEFAULT)
+    closemessage
+    applymovement(OBJ_EVENT_ID_PLAYER, LindenTown_PipsHouse_2F_PlayerMoveOutOfTheWay)
+    applymovement(1, LindenTown_PipsHouse_2F_PipWalkOut)
+    waitmovement(0)
+    removeobject(1)
+    setflag(FLAG_HIDE_LINDEN_PIPS_HOUSE_2F_PIP)
+    setvar(VAR_LINDEN_INTRO_STATE, 4)
+    releaseall
+}
+
+movement LindenTown_PipsHouse_2F_PipWalkToPlayer {
+    walk_right
+    walk_right
+    walk_right
+    walk_right
+    walk_right
+    walk_right
+}
+
+movement LindenTown_PipsHouse_2F_PlayerFaceLeft {
+    walk_in_place_left
+}
+
+movement LindenTown_PipsHouse_2F_PlayerMoveOutOfTheWay {
+    walk_right
+    walk_in_place_left
+}
+
+movement LindenTown_PipsHouse_2F_PipWalkOut {
+    walk_right
+    walk_up
+}

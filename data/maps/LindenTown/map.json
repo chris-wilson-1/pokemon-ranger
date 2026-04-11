@@ -2,7 +2,7 @@
   "id": "MAP_LINDEN_TOWN",
   "name": "LindenTown",
   "layout": "LAYOUT_LINDEN_TOWN",
-  "music": "MUS_LITTLEROOT",
+  "music": "MUS_FORTREE",
   "region_map_section": "MAPSEC_LINDEN_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -28,6 +28,20 @@
       "elevation": 0,
       "dest_map": "MAP_LINDEN_TOWN_PIPS_HOUSE_1F",
       "dest_warp_id": "1"
+    },
+    {
+      "x": 19,
+      "y": 9,
+      "elevation": 0,
+      "dest_map": "MAP_LINDEN_TOWN_RANGER_ACADEMY_1F",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 16,
+      "y": 22,
+      "elevation": 0,
+      "dest_map": "MAP_LINDEN_TOWN",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [],
