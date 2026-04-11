@@ -137,7 +137,7 @@ static void WarpToTruck(void)
     if (IS_FRLG)
         SetWarpDestination(MAP_GROUP(MAP_PALLET_TOWN_PLAYERS_HOUSE_2F), MAP_NUM(MAP_PALLET_TOWN_PLAYERS_HOUSE_2F), WARP_ID_NONE, 6, 6);
     else
-        // Ranger hack: spawn into the Training Hall instead of the truck.
+        // Ranger hack: new game spawns the player in bed in their Linden Town bedroom, not the S.S. Tidal truck.
         SetWarpDestination(MAP_GROUP(MAP_LINDEN_TOWN_PLAYER_HOUSE_2F), MAP_NUM(MAP_LINDEN_TOWN_PLAYER_HOUSE_2F), WARP_ID_NONE, 1, 4);
     WarpIntoMap();
 }

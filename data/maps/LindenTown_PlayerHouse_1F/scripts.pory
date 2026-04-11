@@ -11,13 +11,22 @@ script LindenTown_PlayerHouse_1F_MumTalkScript {
     lock
     faceplayer
     if (var(VAR_LINDEN_INTRO_STATE) == 2) {
-        msgbox(format("Mum: Have you been talking to Pip? They've been waiting for you to come over!"), MSGBOX_DEFAULT)
+        msgbox(format("Mum: Have you been talking to Pip?\nThey've been waiting for you to come over!"), MSGBOX_DEFAULT)
         msgbox(format("Mum: You should head over to their house!"), MSGBOX_DEFAULT)
         closemessage
     } else {
-        // Heal pokemon if the player has any, since this is the first time they talk to their mom in the game.
-        msgbox(format("Mum: Hey son!"), MSGBOX_DEFAULT)
-        closemessage
+        specialvar(VAR_RESULT, CalculatePlayerPartyCount)
+        if (var(VAR_RESULT) == 0) {
+            msgbox(format("Mum: Hi, {PLAYER}!\nTake care of yourself out there."), MSGBOX_DEFAULT)
+            closemessage
+        } else {
+            msgbox(format("Mum: {PLAYER}! You've been working so hard.\nLet me take care of your Pokémon."), MSGBOX_DEFAULT)
+            closemessage
+            call(Common_EventScript_OutOfCenterPartyHeal)
+            incrementgamestat(GAME_STAT_RESTED_AT_HOME)
+            msgbox(format("Mum: There, all better.\nBe careful out there, okay?"), MSGBOX_DEFAULT)
+            closemessage
+        }
     }
     release
 }
@@ -34,7 +43,7 @@ script LindenTown_PlayerHouse_1F_InitialScene {
     applymovement(1, LindenTown_PlayerHouse_1F_MumWalkToPlayer)
     waitmovement(0)
     msgbox(format("Mum: There you are!\nBreakfast is on the table."), MSGBOX_DEFAULT)
-    msgbox(format("Mum: Pip's been waiting you.\nYou'd better head over to their house!"), MSGBOX_DEFAULT)
+    msgbox(format("Mum: Pip's been waiting for you.\nYou'd better head over to their house!"), MSGBOX_DEFAULT)
     closemessage
     applymovement(1, LindenTown_PlayerHouse_1F_MumWalktoTable)
     waitmovement(0)

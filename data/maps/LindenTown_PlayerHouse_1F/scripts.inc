@@ -19,12 +19,25 @@ LindenTown_PlayerHouse_1F_MumTalkScript::
 # 13 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
 	compare VAR_LINDEN_INTRO_STATE, 2
 	goto_if_eq LindenTown_PlayerHouse_1F_MumTalkScript_2
+# 18 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
+	specialvar VAR_RESULT, CalculatePlayerPartyCount
 # 19 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
-	msgbox LindenTown_PlayerHouse_1F_MumTalkScript_Text_2, MSGBOX_DEFAULT
-# 20 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
+	compare VAR_RESULT, 0
+	goto_if_eq LindenTown_PlayerHouse_1F_MumTalkScript_5
+# 23 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
+	msgbox LindenTown_PlayerHouse_1F_MumTalkScript_Text_3, MSGBOX_DEFAULT
+# 24 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
+	closemessage
+# 25 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
+	call Common_EventScript_OutOfCenterPartyHeal
+# 26 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
+	incrementgamestat GAME_STAT_RESTED_AT_HOME
+# 27 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
+	msgbox LindenTown_PlayerHouse_1F_MumTalkScript_Text_4, MSGBOX_DEFAULT
+# 28 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
 	closemessage
 LindenTown_PlayerHouse_1F_MumTalkScript_1:
-# 22 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
+# 31 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
 	release
 	return
 
@@ -37,74 +50,81 @@ LindenTown_PlayerHouse_1F_MumTalkScript_2:
 	closemessage
 	goto LindenTown_PlayerHouse_1F_MumTalkScript_1
 
+LindenTown_PlayerHouse_1F_MumTalkScript_5:
+# 20 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
+	msgbox LindenTown_PlayerHouse_1F_MumTalkScript_Text_2, MSGBOX_DEFAULT
+# 21 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
+	closemessage
+	goto LindenTown_PlayerHouse_1F_MumTalkScript_1
+
 
 LindenTown_PlayerHouse_1F_InitialTransition::
-# 26 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
+# 35 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
 	compare VAR_LINDEN_INTRO_STATE, 1
 	goto_if_eq LindenTown_PlayerHouse_1F_InitialTransition_1
 	return
 
 LindenTown_PlayerHouse_1F_InitialTransition_1:
-# 27 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
+# 36 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
 	setobjectxyperm 1, 1, 3
-# 28 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
+# 37 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
 	setobjectmovementtype 1, MOVEMENT_TYPE_FACE_UP
 	return
 
 
 LindenTown_PlayerHouse_1F_InitialScene::
-# 33 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
-	lockall
-# 34 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
-	applymovement 1, LindenTown_PlayerHouse_1F_MumWalkToPlayer
-# 35 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
-	waitmovement 0
-# 36 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
-	msgbox LindenTown_PlayerHouse_1F_InitialScene_Text_0, MSGBOX_DEFAULT
-# 37 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
-	msgbox LindenTown_PlayerHouse_1F_InitialScene_Text_1, MSGBOX_DEFAULT
-# 38 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
-	closemessage
-# 39 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
-	applymovement 1, LindenTown_PlayerHouse_1F_MumWalktoTable
-# 40 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
-	waitmovement 0
-# 41 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
-	setvar VAR_LINDEN_INTRO_STATE, 2
 # 42 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
+	lockall
+# 43 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
+	applymovement 1, LindenTown_PlayerHouse_1F_MumWalkToPlayer
+# 44 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
+	waitmovement 0
+# 45 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
+	msgbox LindenTown_PlayerHouse_1F_InitialScene_Text_0, MSGBOX_DEFAULT
+# 46 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
+	msgbox LindenTown_PlayerHouse_1F_InitialScene_Text_1, MSGBOX_DEFAULT
+# 47 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
+	closemessage
+# 48 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
+	applymovement 1, LindenTown_PlayerHouse_1F_MumWalktoTable
+# 49 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
+	waitmovement 0
+# 50 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
+	setvar VAR_LINDEN_INTRO_STATE, 2
+# 51 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
 	releaseall
 	return
 
 
-# 45 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
+# 54 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
 LindenTown_PlayerHouse_1F_MumWalkToPlayer:
-# 46 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
+# 55 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
 	walk_right
-# 47 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
+# 56 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
 	walk_right
-# 48 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
+# 57 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
 	walk_right
-# 49 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
+# 58 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
 	walk_right
-# 50 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
+# 59 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
 	walk_right
-# 51 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
+# 60 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
 	walk_right
 	step_end
 
-# 54 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
+# 63 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
 LindenTown_PlayerHouse_1F_MumWalktoTable:
-# 55 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
+# 64 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
 	walk_down
-# 56 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
+# 65 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
 	walk_down
-# 57 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
+# 66 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
 	walk_left
-# 58 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
+# 67 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
 	walk_left
-# 59 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
+# 68 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
 	walk_down
-# 60 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
+# 69 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
 	walk_in_place_left
 	step_end
 
@@ -120,15 +140,27 @@ LindenTown_PlayerHouse_1F_MumTalkScript_Text_1:
 	.string "house!$"
 
 LindenTown_PlayerHouse_1F_MumTalkScript_Text_2:
-# 19 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
-	.string "Mum: Hey son!$"
+# 20 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
+	.string "Mum: Hi, {PLAYER}!\n"
+	.string "Take care of yourself out there.$"
+
+LindenTown_PlayerHouse_1F_MumTalkScript_Text_3:
+# 23 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
+	.string "Mum: {PLAYER}! You've been working so\n"
+	.string "hard.\n"
+	.string "Let me take care of your Pokémon.$"
+
+LindenTown_PlayerHouse_1F_MumTalkScript_Text_4:
+# 27 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
+	.string "Mum: There, all better.\n"
+	.string "Be careful out there, okay?$"
 
 LindenTown_PlayerHouse_1F_InitialScene_Text_0:
-# 36 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
+# 45 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
 	.string "Mum: There you are!\n"
 	.string "Breakfast is on the table.$"
 
 LindenTown_PlayerHouse_1F_InitialScene_Text_1:
-# 37 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
-	.string "Mum: Pip's been waiting you.\n"
+# 46 "data/maps/LindenTown_PlayerHouse_1F/scripts.pory"
+	.string "Mum: Pip's been waiting for you.\n"
 	.string "You'd better head over to their house!$"
