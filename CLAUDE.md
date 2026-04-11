@@ -97,8 +97,13 @@ mkdocs serve
 
 ## Current state
 
-Tech demo phase. Build pipeline working on WSL2. Only code changes so far:
+Early development. Build pipeline working on WSL2. Act 1 scaffolding in progress: Linden Town map, player house 1F/2F, mom scripted. Code changes so far:
 - `include/config/text.h` — `TEXT_SPEED_FAST` set to `0` (instant text)
 - `src/main_menu.c` — experimental intro tweaks (Lotad → Arcanine attempt, didn't fully work)
+- Custom tilesets (`gTileset_LeobORAS`, `gTileset_LeobPetalburg`, etc.) and new maps for Linden Town + interiors.
 
-Next planned steps in `ranger-docs/docs/dev/tech-demo.md`.
+## Polish-first working principle
+
+This project is a polished, shippable product — not a scratchpad. Do **not** propose unpolished shortcuts, "good enough for now" fallbacks, or "fine for a tech demo" compromises. When engine-level work is needed (door animation graphics tables, custom tileset wiring, palette animation, field effects, etc.), walk through doing it properly the first time.
+
+Pillar #6 ("minimal custom presentation") constrains **scope** (what gets built), not **quality** (how well). Whatever ships, ships polished. If something genuinely needs to be deferred, call it out plainly as a followup — don't dress it up as acceptable.

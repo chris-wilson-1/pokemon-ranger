@@ -332,6 +332,9 @@
 // gTileset_LavenderTown
 #define METATILE_LavenderTown_Door  0x2A2
 
+// gTileset_LeobPetalburg
+#define METATILE_LeobPetalburg_Door_House  0x248
+
 // gTileset_Lilycove
 #define METATILE_Lilycove_Door             0x246
 #define METATILE_Lilycove_Door_DeptStore   0x30C
