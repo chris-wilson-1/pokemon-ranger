@@ -9366,6 +9366,17 @@
       "secondary_tileset": "gTileset_LeobPetalburg",
       "border_filepath": "data/layouts/LindenTown/border.bin",
       "blockdata_filepath": "data/layouts/LindenTown/map.bin"
+    },
+    {
+      "id": "LAYOUT_LINDEN_TOWN_PIPS_HOUSE_1F",
+      "name": "LindenTown_PipsHouse_1F_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/LindenTown_PipsHouse_1F/border.bin",
+      "blockdata_filepath": "data/layouts/LindenTown_PipsHouse_1F/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }

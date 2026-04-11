@@ -1166,7 +1166,8 @@
   ],
   "gMapGroup_IndoorLinden": [
     "LindenTown_PlayerHouse_1F",
-    "LindenTown_PlayerHouse_2F"
+    "LindenTown_PlayerHouse_2F",
+    "LindenTown_PipsHouse_1F"
   ],
   "gMapGroup_ArdennaTownsAndRoutes": [
     "LindenTown"

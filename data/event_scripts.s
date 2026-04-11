@@ -1745,3 +1745,5 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 	.include "data/maps/LindenTown_PlayerHouse_2F/scripts.inc"
 
 	.include "data/maps/LindenTown/scripts.inc"
+
+	.include "data/maps/LindenTown_PipsHouse_1F/scripts.inc"
