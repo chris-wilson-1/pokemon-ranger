@@ -9377,6 +9377,17 @@
       "border_filepath": "data/layouts/LindenTown_PipsHouse_1F/border.bin",
       "blockdata_filepath": "data/layouts/LindenTown_PipsHouse_1F/map.bin",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_LINDEN_TOWN_PIPS_HOUSE_2F",
+      "name": "LindenTown_PipsHouse_2F_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/LindenTown_PipsHouse_2F/border.bin",
+      "blockdata_filepath": "data/layouts/LindenTown_PipsHouse_2F/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }

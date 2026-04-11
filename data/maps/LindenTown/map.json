@@ -21,6 +21,13 @@
       "elevation": 0,
       "dest_map": "MAP_LINDEN_TOWN_PLAYER_HOUSE_1F",
       "dest_warp_id": "1"
+    },
+    {
+      "x": 7,
+      "y": 20,
+      "elevation": 0,
+      "dest_map": "MAP_LINDEN_TOWN_PIPS_HOUSE_1F",
+      "dest_warp_id": "1"
     }
   ],
   "coord_events": [],
