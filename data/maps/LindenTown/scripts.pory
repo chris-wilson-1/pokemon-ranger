@@ -1,0 +1,31 @@
+mapscripts LindenTown_MapScripts {}
+
+### Signs
+
+script LindenTown_PlayerHouseSignScript {
+    lock
+    msgbox(format("{PLAYER}'s House"), MSGBOX_DEFAULT)
+    closemessage
+    release
+}
+
+script LindenTown_PipsHouseSignScript {
+    lock
+    msgbox(format("Pip's House"), MSGBOX_DEFAULT)
+    closemessage
+    release
+}
+
+script LindenTown_BransHouseSignScript {
+    lock
+    msgbox(format("Bran's House"), MSGBOX_DEFAULT)
+    closemessage
+    release
+}
+
+script LindenTown_AcademySignScript {
+    lock
+    msgbox(format("Linden Town Ranger Academy"), MSGBOX_DEFAULT)
+    closemessage
+    release
+}
