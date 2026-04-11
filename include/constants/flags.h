@@ -51,7 +51,7 @@
 
 #else
 
-#define FLAG_UNUSED_0x020    0x20 // Unused Flag
+#define FLAG_HIDE_LINDEN_MUM_2F    0x20 // Hides the NPC of the player's mom on the 2F of the Player's House in Linden Town. Set when the player talks to her for the first time.
 #define FLAG_UNUSED_0x021    0x21 // Unused Flag
 #define FLAG_UNUSED_0x022    0x22 // Unused Flag
 #define FLAG_UNUSED_0x023    0x23 // Unused Flag

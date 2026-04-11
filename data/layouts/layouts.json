@@ -9334,6 +9334,38 @@
       "border_height": 2,
       "border_width": 2,
       "layout_version": "frlg"
+    },
+    {
+      "id": "LAYOUT_LINDEN_TOWN_PLAYER_HOUSE_1F",
+      "name": "LindenTown_PlayerHouse_1F_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/LindenTown_PlayerHouse_1F/border.bin",
+      "blockdata_filepath": "data/layouts/LindenTown_PlayerHouse_1F/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_LINDEN_TOWN_PLAYER_HOUSE_2F",
+      "name": "LindenTown_PlayerHouse_2F_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/LindenTown_PlayerHouse_2F/border.bin",
+      "blockdata_filepath": "data/layouts/LindenTown_PlayerHouse_2F/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_LINDEN_TOWN",
+      "name": "LindenTown_Layout",
+      "width": 26,
+      "height": 26,
+      "primary_tileset": "gTileset_LeobORAS",
+      "secondary_tileset": "gTileset_LeobPetalburg",
+      "border_filepath": "data/layouts/LindenTown/border.bin",
+      "blockdata_filepath": "data/layouts/LindenTown/map.bin"
     }
   ]
 }

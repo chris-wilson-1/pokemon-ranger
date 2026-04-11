@@ -1,0 +1,55 @@
+mapscripts LindenTown_PlayerHouse_2F_MapScripts {
+    MAP_SCRIPT_ON_FRAME_TABLE [
+        VAR_LINDEN_INTRO_STATE, 0: LindenTown_PlayerHouse_2F_WakeUpScene
+    ]
+}
+
+# Mum Intro talk
+
+script LindenTown_PlayerHouse_2F_WakeUpScene {
+    lockall
+    delay(40)
+    applymovement(1, LindenTown_PlayerHouse_2F_MumWalkToBed)
+    waitmovement(0)
+    msgbox(format("Mum: {PLAYER}! Wake up, sleepyhead!"), MSGBOX_DEFAULT)
+    msgbox(format("Mum: It's graduation day!\nYou don't want to be late!"), MSGBOX_DEFAULT)
+    msgbox(format("Mum: Pip will be waiting for you.\nGet dressed and come downstairs!"), MSGBOX_DEFAULT)
+    closemessage
+    applymovement(1, LindenTown_PlayerHouse_2F_MumWalkDownstairs)
+    waitmovement(0)
+    removeobject(1)
+    setflag(FLAG_HIDE_LINDEN_MUM_2F)
+    applymovement(OBJ_EVENT_ID_PLAYER, LindenTown_PlayerHouse_2F_PlayerGetUp)
+    waitmovement(0)
+    setvar(VAR_LINDEN_INTRO_STATE, 1)
+    releaseall
+}
+
+
+movement LindenTown_PlayerHouse_2F_PlayerGetUp {
+    walk_in_place_right
+    delay_16
+    walk_right
+}
+
+movement LindenTown_PlayerHouse_2F_MumWalkToBed {
+    walk_down
+    walk_down
+    walk_left
+    walk_left
+    walk_left
+    walk_left
+    walk_down
+    walk_left
+}
+
+movement LindenTown_PlayerHouse_2F_MumWalkDownstairs {
+    walk_right
+    walk_right
+    walk_right
+    walk_right
+    walk_up
+    walk_right
+    walk_up
+    walk_up
+}

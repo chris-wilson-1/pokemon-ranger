@@ -408,3 +408,12 @@ const u16 gMetatiles_HallOfFame[] = INCBIN_U16("data/tilesets/secondary/hall_of_
 const u16 gMetatileAttributes_HallOfFame[] = INCBIN_U16("data/tilesets/secondary/hall_of_fame_frlg/metatile_attributes.bin");
 
 #endif // IS_FRLG
+
+const u16 gMetatiles_PrimaryTest[] = INCBIN_U16("data/tilesets/primary/primary_test/metatiles.bin");
+const u16 gMetatileAttributes_PrimaryTest[] = INCBIN_U16("data/tilesets/primary/primary_test/metatile_attributes.bin");
+
+const u16 gMetatiles_LeobORAS[] = INCBIN_U16("data/tilesets/primary/leob_oras/metatiles.bin");
+const u16 gMetatileAttributes_LeobORAS[] = INCBIN_U16("data/tilesets/primary/leob_oras/metatile_attributes.bin");
+
+const u16 gMetatiles_LeobPetalburg[] = INCBIN_U16("data/tilesets/secondary/leob_petalburg/metatiles.bin");
+const u16 gMetatileAttributes_LeobPetalburg[] = INCBIN_U16("data/tilesets/secondary/leob_petalburg/metatile_attributes.bin");

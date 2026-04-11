@@ -1739,3 +1739,9 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 	.include "data/scripts/apricorn_tree.inc"
 
 	.include "data/maps/LittlerootTown_RangerBaseTrainingHall/scripts.inc"
+
+	.include "data/maps/LindenTown_PlayerHouse_1F/scripts.inc"
+
+	.include "data/maps/LindenTown_PlayerHouse_2F/scripts.inc"
+
+	.include "data/maps/LindenTown/scripts.inc"

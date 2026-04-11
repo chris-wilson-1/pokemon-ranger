@@ -138,7 +138,7 @@ static void WarpToTruck(void)
         SetWarpDestination(MAP_GROUP(MAP_PALLET_TOWN_PLAYERS_HOUSE_2F), MAP_NUM(MAP_PALLET_TOWN_PLAYERS_HOUSE_2F), WARP_ID_NONE, 6, 6);
     else
         // Ranger hack: spawn into the Training Hall instead of the truck.
-        SetWarpDestination(MAP_GROUP(MAP_LITTLEROOT_TOWN_RANGER_BASE_TRAINING_HALL), MAP_NUM(MAP_LITTLEROOT_TOWN_RANGER_BASE_TRAINING_HALL), WARP_ID_NONE, 10, 10);
+        SetWarpDestination(MAP_GROUP(MAP_LINDEN_TOWN_PLAYER_HOUSE_2F), MAP_NUM(MAP_LINDEN_TOWN_PLAYER_HOUSE_2F), WARP_ID_NONE, 1, 4);
     WarpIntoMap();
 }
 

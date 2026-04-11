@@ -3048,3 +3048,60 @@ const u16 ALIGNED(4) gTilesetPalettes_General_Frlg[][16] =
 const u32 gTilesetTiles_General_Frlg[] = INCBIN_U32("data/tilesets/primary/general_frlg/tiles.4bpp.smol");
 
 #endif // IS_FRLG
+
+const u16 gTilesetPalettes_PrimaryTest[][16] =
+{
+    INCBIN_U16("data/tilesets/primary/primary_test/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/primary/primary_test/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/primary/primary_test/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/primary/primary_test/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/primary/primary_test/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/primary/primary_test/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/primary/primary_test/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/primary/primary_test/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/primary/primary_test/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/primary/primary_test/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/primary/primary_test/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/primary/primary_test/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/primary/primary_test/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PrimaryTest[] = INCBIN_U32("data/tilesets/primary/primary_test/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_LeobORAS[][16] =
+{
+    INCBIN_U16("data/tilesets/primary/leob_oras/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/primary/leob_oras/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/primary/leob_oras/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/primary/leob_oras/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/primary/leob_oras/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/primary/leob_oras/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/primary/leob_oras/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/primary/leob_oras/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/primary/leob_oras/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/primary/leob_oras/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/primary/leob_oras/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/primary/leob_oras/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/primary/leob_oras/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_LeobORAS[] = INCBIN_U32("data/tilesets/primary/leob_oras/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_LeobPetalburg[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/leob_petalburg/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/leob_petalburg/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/leob_petalburg/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/leob_petalburg/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/leob_petalburg/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/leob_petalburg/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/leob_petalburg/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/leob_petalburg/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/leob_petalburg/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/leob_petalburg/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/leob_petalburg/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/leob_petalburg/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/leob_petalburg/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_LeobPetalburg[] = INCBIN_U32("data/tilesets/secondary/leob_petalburg/tiles.4bpp.lz");
