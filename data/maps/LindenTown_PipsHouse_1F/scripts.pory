@@ -21,7 +21,6 @@ script LindenTown_PipsHouse_1F_InitialScene {
 
 movement LindenTown_PipsHouse_1F_PoppyWalkToPlayer {
     walk_fast_right
-    walk_fast_right
     walk_fast_down
     walk_fast_right
     walk_fast_down
@@ -32,7 +31,6 @@ movement LindenTown_PipsHouse_1F_PoppyWalkAway {
     walk_fast_up
     walk_fast_up
     walk_fast_up
-    walk_fast_left
     walk_fast_left
     walk_fast_left
 }

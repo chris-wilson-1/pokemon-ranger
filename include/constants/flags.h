@@ -53,12 +53,12 @@
 
 #define FLAG_HIDE_LINDEN_MUM_2F    0x20 // Hides the NPC of the player's mom on the 2F of the Player's House in Linden Town. Set when the player talks to her for the first time.
 #define FLAG_HIDE_LINDEN_PIPS_HOUSE_2F_PIP    0x21 // Hides the NPC of Pip in Linden Town's Pips House 2F. Set when the player talks to her for the first time.
-#define FLAG_UNUSED_0x022    0x22 // Unused Flag
-#define FLAG_UNUSED_0x023    0x23 // Unused Flag
-#define FLAG_UNUSED_0x024    0x24 // Unused Flag
-#define FLAG_UNUSED_0x025    0x25 // Unused Flag
-#define FLAG_UNUSED_0x026    0x26 // Unused Flag
-#define FLAG_UNUSED_0x027    0x27 // Unused Flag
+#define FLAG_HIDE_ACADEMY_1F_CASSIAN_BEAT3    0x22 // Hides the NPC of Cassian in the Academy 1F at story beat 3.
+#define FLAG_HIDE_ACADEMY_1F_BRAN_BEAT3    0x23 // Hides the NPC of Bran in the Academy 1F at story beat 3.
+#define FLAG_HIDE_ACADEMY_2F_CASSIAN_BEAT4    0x24 // Hides the NPC of Cassian in the Academy 2F at story beat 4.
+#define FLAG_HIDE_ACADEMY_2F_BRAN_BEAT4    0x25 // Hides the NPC of Bran in the Academy 2F at story beat 4.
+#define FLAG_HIDE_ACADEMY_2F_PIP_BEAT4    0x26 // Hides the NPC of Pip in the Academy 2F at story beat 4.
+#define FLAG_HIDE_ACADEMY_2F_MEREN_BEAT4    0x27 // Hides the NPC of Meren in the Academy 2F at story beat 4.
 #define FLAG_UNUSED_0x028    0x28 // Unused Flag
 #define FLAG_UNUSED_0x029    0x29 // Unused Flag
 #define FLAG_UNUSED_0x02A    0x2A // Unused Flag

@@ -1,0 +1,119 @@
+mapscripts LindenTown_RangerAcademy_1F_MapScripts {
+    MAP_SCRIPT_ON_TRANSITION: LindenTown_RangerAcademy_1F_MattyStairblock
+    MAP_SCRIPT_ON_FRAME_TABLE [
+        VAR_LINDEN_INTRO_STATE, 4: LindenTown_RangerAcademy_1F_BeatThreeEntry
+    ]
+}
+
+
+# Beat Three Entry
+
+script LindenTown_RangerAcademy_1F_BeatThreeEntry {
+    lockall
+    delay(30)
+    applymovement(2, LindenTown_RangerAcademy_1F_CassianStandsUp)
+    waitmovement(0)
+    msgbox(format("Cassian: {PLAYER}!\nThere you are - come on in."), MSGBOX_DEFAULT)
+    msgbox(format("Cassian: Big day. Head over to Matty first - he's got your starter pack ready. \pI'll meet you upstairs when you're done."), MSGBOX_DEFAULT)
+    applymovement(2, LindenTown_RangerAcademy_1F_CassianSitsDown)
+    waitmovement(0)
+    setvar(VAR_LINDEN_INTRO_STATE, 5)
+    releaseall
+}
+
+movement LindenTown_RangerAcademy_1F_CassianStandsUp {
+    walk_in_place_right
+}
+
+movement LindenTown_RangerAcademy_1F_CassianSitsDown {
+    walk_in_place_left
+}
+
+# Matty Talk Script
+
+script LindenTown_RangerAcademy_1F_MattyStairblock {
+    if (var(VAR_LINDEN_INTRO_STATE) < 5) {
+        setobjectxyperm(1, 11, 2)
+    }
+}
+
+script LindenTown_RangerAcademy_1F_MattyTalk {
+    lock
+    faceplayer
+    if (var(VAR_LINDEN_INTRO_STATE) == 5) {
+        msgbox(format("Matty: There you are! {PLAYER}, right?\pAll right - here's your starter kit.\nFirst-aid, potions, a few balls to get you started."), MSGBOX_DEFAULT)
+        giveitem(ITEM_POKE_BALL, 5)  # placeholder count
+        giveitem(ITEM_POTION, 3)
+        # TODO: give the Foundation first-aid kit as a key item — custom item needed later
+        msgbox(format("Matty: My granddad used to call these the best tools we've got.\pSaid they'd do you right as well as anything they used in his day.\pHe'd know."), MSGBOX_DEFAULT)
+        # ^ THE STYLUS SEED. Inherited phrase. Do not let Matty explain further.
+        msgbox(format("Matty: Anyway - you're all set. Cassian's waiting for you upstairs."), MSGBOX_DEFAULT)
+        closemessage
+        applymovement(1, LindenTown_RangerAcademy_1F_MattyWalksToDesk)
+        waitmovement(0)
+        setvar(VAR_LINDEN_INTRO_STATE, 6)
+    } elif (var(VAR_LINDEN_INTRO_STATE) >= 6) {
+        # Generic post-Beat-3 dialogue
+        msgbox(format("Matty: You got what you need?\nGo on up - don't keep them waiting."), MSGBOX_DEFAULT)
+        closemessage
+      }
+      release
+}
+
+movement LindenTown_RangerAcademy_1F_MattyWalksToDesk {
+    walk_right
+    walk_down
+    walk_down
+    walk_right
+    walk_in_place_down
+}
+
+script LindenTown_RangerAcademy_1F_CassianTalk {
+    lock
+    faceplayer
+    if (var(VAR_LINDEN_INTRO_STATE) == 5) {
+        # Player hasn't talked to Matty yet
+        msgbox(format("Cassian: Get your supplies from Matty first,\nthen come find me upstairs."), MSGBOX_DEFAULT)
+    } elif (var(VAR_LINDEN_INTRO_STATE) == 6) {
+        # Ready for upstairs
+        msgbox(format("Cassian: All set? Head on up.\nI'll see you in the classroom."), MSGBOX_DEFAULT)
+    } else {
+        # Generic fallback
+        msgbox(format("Cassian: Everything's ready for you upstairs."), MSGBOX_DEFAULT)
+    }
+    closemessage
+    release
+}
+
+script LindenTown_RangerAcademy_1F_BranTalk {
+      lock
+      faceplayer
+      msgbox(format("Bran: Oh, look who finally showed up.\pTry not to embarrass yourself in the ceremony, yeah?"), MSGBOX_DEFAULT)
+      closemessage
+      release
+}
+
+
+script LindenTown_RangerAcademy_1F_GenericNPC1Talk {
+    lock
+    faceplayer
+    msgbox(format("Ranger: First graduation day I've been back for. Makes you remember yours, huh?"), MSGBOX_DEFAULT)
+    closemessage
+    release
+}
+
+script LindenTown_RangerAcademy_1F_GenericNPC2Talk {
+    lock
+    faceplayer
+    msgbox(format("Ranger: You three nervous? I was a wreck at mine. You'll be fine."), MSGBOX_DEFAULT)
+    closemessage
+    release
+}
+
+script LindenTown_RangerAcademy_1F_GenericNPC3Talk {
+    lock
+    faceplayer
+    msgbox(format("Ranger: Welcome to the Corps, recruit. Stay sharp out there."), MSGBOX_DEFAULT)
+    closemessage
+    release
+}
