@@ -9408,6 +9408,16 @@
       "secondary_tileset": "gTileset_PokemonSchool",
       "border_filepath": "data/layouts/LindenTown_RangerAcademy_2F/border.bin",
       "blockdata_filepath": "data/layouts/LindenTown_RangerAcademy_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE_1",
+      "name": "Route_1_Layout",
+      "width": 40,
+      "height": 40,
+      "primary_tileset": "gTileset_LeobORAS",
+      "secondary_tileset": "gTileset_Fortree",
+      "border_filepath": "data/layouts/Route_1/border.bin",
+      "blockdata_filepath": "data/layouts/Route_1/map.bin"
     }
   ]
 }
