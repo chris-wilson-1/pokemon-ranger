@@ -9402,7 +9402,7 @@
     {
       "id": "LAYOUT_LINDEN_TOWN_RANGER_ACADEMY_2F",
       "name": "LindenTown_RangerAcademy_2F_Layout",
-      "width": 12,
+      "width": 13,
       "height": 11,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_PokemonSchool",

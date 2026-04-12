@@ -1,0 +1,164 @@
+# ============================================================================
+# Beat 4 — Graduation ceremony.
+#
+# Player's starter choice is written to VAR_STARTER_MON automatically by the
+# modified CB2_GiveStarter in src/battle_setup.c when the player confirms.
+# No explicit setvar needed in this script.
+#
+# Starter triangle (for Beat 6 Bran rival trainer data):
+#   VAR_STARTER_MON   Player  | Pip (player SE vs) | Bran (SE vs player)
+#   ------------------------- |--------------------|--------------------
+#   0                 Rolycoly|  Rookidee (Flying) |  Timburr (Fighting)
+#   1                 Timburr |  Rolycoly (Rock)   |  Rookidee (Flying)
+#   2                 Rookidee|  Timburr (Fighting)|  Rolycoly (Rock)
+#
+#   Bran always has type advantage over the player (hard rival fight).
+#   Pip always has the starter the player is super effective against
+#   (Pip is the warm friend, narratively weaker matchup).
+#
+# Pip and Bran's picks here are narrative only — Beat 6's TRAINER_BRAN_*
+# definitions read VAR_STARTER_MON to determine Bran's actual party.
+# ============================================================================
+
+mapscripts LindenTown_RangerAcademy_2F_MapScripts {
+    MAP_SCRIPT_ON_TRANSITION: LindenTown_RangerAcademy_2F_BeatFourTransition
+    MAP_SCRIPT_ON_FRAME_TABLE [
+        VAR_LINDEN_INTRO_STATE, 6: LindenTown_RangerAcademy_2F_GraduationScene
+    ]
+}
+
+script LindenTown_RangerAcademy_2F_BeatFourTransition {
+    if (var(VAR_LINDEN_INTRO_STATE) == 6) {
+        # Hide Beat 3 versions of Cassian and Bran on 1F
+        setflag(FLAG_HIDE_ACADEMY_1F_CASSIAN_BEAT3)
+        setflag(FLAG_HIDE_ACADEMY_1F_BRAN_BEAT3)
+        # Reveal Beat 4 versions on 2F
+        clearflag(FLAG_HIDE_ACADEMY_2F_CASSIAN_BEAT4)
+        clearflag(FLAG_HIDE_ACADEMY_2F_MEREN_BEAT4)
+        clearflag(FLAG_HIDE_ACADEMY_2F_PIP_BEAT4)
+        clearflag(FLAG_HIDE_ACADEMY_2F_BRAN_BEAT4)
+    }
+}
+
+# Graduation Scene
+script LindenTown_RangerAcademy_2F_GraduationScene {
+    lockall
+    delay(40)
+    applymovement(OBJ_EVENT_ID_PLAYER, LindenTown_RangerAcademy_2F_PlayerTakesPosition)
+    waitmovement(0)
+
+    # Cassian's Speech
+    applymovement(4, LindenTown_RangerAcademy_2F_CassianStepsForward)
+    waitmovement(0)
+    msgbox(format("Cassian: Stand tall, you three.\pYou've earned this day."), MSGBOX_DEFAULT)
+    msgbox(format("Cassian: The academy teaches you a lot. The history, the technique, the reports nobody reads.\pBut there's a thing we can't teach you. A thing you have to feel in your bones.\pA ranger is nothing without their partner. You're going to spend your whole career learning what that means."), MSGBOX_DEFAULT)
+    msgbox(format("Cassian: My grandfather used to talk about the old rangers.\pThe ones he worked beside, before the Withdrawal.\pHe said the bond between a ranger and their partner was a kind of contract. Written in a language only the two of you knew."), MSGBOX_DEFAULT)
+    msgbox(format("Cassian: …I think about that a lot, if I'm honest.\pWhat it must have been, to know your partner like that.\pWe don't always have the old words anymore. But we have this."), MSGBOX_DEFAULT)
+    msgbox(format("Cassian: So when you meet your partner today, remember: they'll meet you too.\pYou're the start of something. That's what a ranger is.\pThat's what you are, from this day forward."), MSGBOX_DEFAULT)
+    closemessage
+    delay(20)
+
+    # Meren presents starters
+    applymovement(3, LindenTown_RangerAcademy_2F_MerenStepsForward)
+    waitmovement(0)
+    msgbox(format("Meren: Thank you, Director Cassian.\pThat was beautiful."), MSGBOX_DEFAULT)
+    closemessage
+    delay(20)
+    msgbox(format("Meren: Graduates.\pOn behalf of the Thorne Foundation's Partner Program, it is our privilege to place these three partners with you today."), MSGBOX_DEFAULT)
+    msgbox(format("Meren: I've been a ranger for twenty-three years, and I still remember the day I met mine.\pYou will too."), MSGBOX_DEFAULT)
+    msgbox(format("Meren: {PLAYER}, please step forward.\pPick the one that looks back at you."), MSGBOX_DEFAULT)
+    closemessage
+
+    applymovement(OBJ_EVENT_ID_PLAYER, LindenTown_RangerAcademy_2F_PlayerStepsForward)
+    waitmovement(0)
+
+    # Starter selection menu
+    fadescreen(FADE_TO_BLACK)
+    special(ChooseStarter)
+    waitstate
+
+    msgbox(format("Meren: A fine match.\pTake good care of each other."), MSGBOX_DEFAULT)
+    closemessage
+
+    applymovement(OBJ_EVENT_ID_PLAYER, LindenTown_RangerAcademy_2F_PlayerReturnsToPlace)
+    waitmovement(0)
+
+    # Pip and Bran take their starters
+    applymovement(6, LindenTown_RangerAcademy_2F_PipTakesStarter)
+    waitmovement(0)
+    msgbox(format("Pip: …alright."), MSGBOX_DEFAULT)
+    msgbox(format("Pip: Hi.\pI'm Pip.\pWe're going to be a team."), MSGBOX_DEFAULT)
+    closemessage
+    applymovement(6, LindenTown_RangerAcademy_2F_PipReturnsToPosition)
+    waitmovement(0)
+
+    applymovement(5, LindenTown_RangerAcademy_2F_BranTakesStarter)
+    waitmovement(0)
+    msgbox(format("Bran: I'll take what's left.\nLike it matters. I'd win with any of them."), MSGBOX_DEFAULT)
+    closemessage
+    applymovement(5, LindenTown_RangerAcademy_2F_BranReturnsToPosition)
+    waitmovement(0)
+    msgbox(format("Bran: Hope the Partner Program's proud of me today, Dad."), MSGBOX_DEFAULT)
+    closemessage
+
+    # Ceremony concludes
+    msgbox(format("Cassian: Congratulations.\pIt's an honour to send you out from this room today."), MSGBOX_DEFAULT)
+    msgbox(format("Cassian: Take a moment if you need to.\pAnd then, come down to the square.\pThere's someone here who wanted to be the first to meet our new rangers."), MSGBOX_DEFAULT)
+    closemessage
+
+    setvar(VAR_LINDEN_INTRO_STATE, 8)
+    releaseall
+}
+
+movement LindenTown_RangerAcademy_2F_PlayerTakesPosition {
+    walk_up
+    walk_up
+    walk_up
+}
+
+movement LindenTown_RangerAcademy_2F_CassianStepsForward {
+    walk_down
+}
+
+movement LindenTown_RangerAcademy_2F_MerenStepsForward {
+    walk_down
+}
+
+movement LindenTown_RangerAcademy_2F_PlayerStepsForward {
+    walk_up
+    walk_up
+}
+
+movement LindenTown_RangerAcademy_2F_PlayerReturnsToPlace {
+    walk_down
+    walk_down
+    walk_in_place_up
+}
+
+movement LindenTown_RangerAcademy_2F_PipTakesStarter {
+    walk_up
+    walk_up
+    walk_right
+    walk_in_place_up
+}
+
+movement LindenTown_RangerAcademy_2F_PipReturnsToPosition {
+    walk_left
+    walk_down
+    walk_down
+    walk_in_place_up
+}
+
+movement LindenTown_RangerAcademy_2F_BranTakesStarter {
+    walk_up
+    walk_up
+    walk_left
+    walk_in_place_up
+}
+
+movement LindenTown_RangerAcademy_2F_BranReturnsToPosition {
+    walk_right
+    walk_down
+    walk_down
+    walk_in_place_up
+}

@@ -273,6 +273,13 @@ EventScript_ResetAllMapFlags::
 	setflag FLAG_HIDE_SKY_PILLAR_WALLACE
 	setflag FLAG_HIDE_SKY_PILLAR_TOP_RAYQUAZA_STILL
 	call EventScript_ResetAllBerries
+
+	@ Ranger hack - academy 2F NPCs hidden until Beat 4 graduation cutscene
+    setflag FLAG_HIDE_ACADEMY_2F_CASSIAN_BEAT4
+    setflag FLAG_HIDE_ACADEMY_2F_MEREN_BEAT4
+    setflag FLAG_HIDE_ACADEMY_2F_PIP_BEAT4
+    setflag FLAG_HIDE_ACADEMY_2F_BRAN_BEAT4
+
 	end
 
 EventScript_ResetAllMapFlagsFrlg::
